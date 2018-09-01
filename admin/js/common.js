@@ -1223,6 +1223,7 @@ var qTranslateX=function(pg) {
 
 	this.toggleCopyFrom = function() {
 		jQuery('.qtranxs-lang-switch-wrap').toggleClass('copying');
+		jQuery(this).toggleClass('active');
 	}
 
 	this.copyContentFrom = function(langFrom) {
@@ -1274,10 +1275,11 @@ var qTranslateX=function(pg) {
 			qTranslateConfig.tabSwitches[lang].push(tabSwitch);
 		}
 		if(!qTranslateConfig.hide_lsb_copy_content) {
-			var tab = qtranxj_ce('li', { className: 'qtranxs-lang-switch qtranxs-lang-copy-li' }, langSwitchWrap);
-			var spn = qtranxj_ce('span', { className: 'qtranxs-lang-copy' }, tab);
+			var tab = qtranxj_ce('li', { className: 'qtranxs-lang-copy' }, langSwitchWrap);
+			var btn = qtranxj_ce('button', { className: 'button button-secondary', type: 'button', title: qTranslateConfig.strings.CopyFromAlt, onclick: qtx.toggleCopyFrom}, tab);
+			qtranxj_ce('span', { className: 'dashicons dashicons-admin-page' }, btn);
 			var html = qTranslateConfig.strings.CopyFrom + '&nbsp;';
-			qtranxj_ce('span', { className: 'qtranxs-lang-copy-button', onclick: qtx.toggleCopyFrom, title: qTranslateConfig.strings.CopyFromAlt, innerHTML: html }, spn);
+			qtranxj_ce('span', { innerHTML: html }, btn);
 		}
 		return langSwitchWrap;
 	}

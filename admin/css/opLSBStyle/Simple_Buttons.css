@@ -4,12 +4,12 @@
 	margin: 8px 0 4px;
 }
 
-.qtranxs-lang-switch {
+.qtranxs-lang-switch-wrap li {
 	margin: 1px 2px 1px 0;
 	display: inline-block;
 }
 
-.qtranxs-lang-switch .button {
+.qtranxs-lang-switch-wrap li .button {
 	height: auto;
 	padding: 0 6px;
 	border-radius: 0;
@@ -27,37 +27,12 @@
 	margin-bottom: 2px;
 }
 
+/* Button "Copy From" */
 
-/*
-	Button "Copy From"
-*/
-
-span.qtranxs-lang-copy {
-	background-image: linear-gradient(to top,#e5e5e5,#f4f4f4);
-	margin-top: 1px;
-	margin-left: 10px;
-	border: 2px solid #UserColor2;
-	border-radius: 2px;
-	vertical-align: +1px;
-	padding: 0px 4px 3px 8px;
-	white-space: nowrap;
+li.qtranxs-lang-copy {
+	margin-left: 20px;
 }
 
-span.qtranxs-lang-copy-button {
-	font-size: smaller;
-	vertical-align: middle;
-	cursor: pointer;
-}
-
-.qtranxs-lang-switch-wrap.copying .qtranxs-lang-copy-button {
+.qtranxs-lang-switch-wrap.copying li.qtranxs-lang-copy .button {
 	cursor: alias;
-}
-
-
-#wpbody select.qtranxs-lang-copy-select {
-	border-radius: 12px;
-	font-size: smaller;
-	height: initial;
-	vertical-align: middle;
-	padding: 0px 0px 0px 0px;
 }
