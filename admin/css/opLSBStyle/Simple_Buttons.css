@@ -1,7 +1,7 @@
 /* Language Switching Buttons as Simple Horizontal Block */
 
 .qtranxs-lang-switch-wrap {
-	margin: 8px 0 2px;
+	margin: 8px 0 4px;
 }
 
 .qtranxs-lang-switch {
@@ -13,6 +13,12 @@
 	height: auto;
 	padding: 0 6px;
 	border-radius: 0;
+	vertical-align: initial;
+}
+
+.qtranxs-lang-switch-wrap.copying .qtranxs-lang-switch:not(.active) .button {
+	cursor: alias;
+	border: dashed 1px #0085ba;
 }
 
 .qtranxs-lang-switch img {
@@ -31,7 +37,7 @@ span.qtranxs-lang-copy {
 	margin-top: 1px;
 	margin-left: 10px;
 	border: 2px solid #UserColor2;
-	border-radius: 12px;
+	border-radius: 2px;
 	vertical-align: +1px;
 	padding: 0px 4px 3px 8px;
 	white-space: nowrap;
@@ -43,9 +49,10 @@ span.qtranxs-lang-copy-button {
 	cursor: pointer;
 }
 
-span.qtranxs-lang-copy-button:hover {
-	text-decoration: underline;
+.qtranxs-lang-switch-wrap.copying .qtranxs-lang-copy-button {
+	cursor: alias;
 }
+
 
 #wpbody select.qtranxs-lang-copy-select {
 	border-radius: 12px;

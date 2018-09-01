@@ -1167,14 +1167,8 @@ var qTranslateX=function(pg) {
 	 * former switchTab
 	 * @since 3.3.2
 	 */
-	this.switchActiveLanguage = function () {
+	this.switchActiveLanguage = function (lang) {
 		//co('switchActiveLanguage: this=',this);
-		var tabSwitch = this;
-		var lang = tabSwitch.lang;
-		if (!lang){
-			alert('qTranslate-X: This should not have happened: Please, report this incident to the developers: !lang');
-			return;
-		}
 		if ( qTranslateConfig.activeLanguage === lang ){
 			return;
 		}
@@ -1209,10 +1203,31 @@ var qTranslateX=function(pg) {
 		qtx.onLoadLanguage(lang,langFrom);
 	}
 
+	this.clickSwitchLanguage = function () {
+		var tabSwitch = jQuery(this).hasClass('button') ? this.parentNode : this;
+		var lang = tabSwitch.lang;
+		if (!lang){
+			alert('qTranslate-X: This should not have happened: Please, report this incident to the developers: !lang');
+			return;
+		}
+		if (jQuery('.qtranxs-lang-switch-wrap').hasClass('copying')) {
+			//console.log('Copy from:', lang, ' to:', qTranslateConfig.activeLanguage);
+			qtx.copyContentFrom(lang);
+			jQuery(tabSwitch).find('.button').blur();
+		} else {
+			//console.log('Switch from:', qTranslateConfig.activeLanguage, ' to:');
+			qtx.switchActiveLanguage(lang);
+		}
+		jQuery('.qtranxs-lang-switch-wrap').removeClass('copying');
+	}
 
-	this.CopyContentFrom = function() {
+	this.toggleCopyFrom = function() {
+		jQuery('.qtranxs-lang-switch-wrap').toggleClass('copying');
+	}
+
+	this.copyContentFrom = function(langFrom) {
 		var lang = qTranslateConfig.activeLanguage;
-		var langFrom = qTranslateConfig.CopyFromLang;
+		//var langFrom = qTranslateConfig.CopyFromLang;
 		var changed = false;
 		for(var key in contentHooks){
 			var h = contentHooks[key];
@@ -1232,12 +1247,6 @@ var qTranslateX=function(pg) {
 			qtx.onLoadLanguage(lang,langFrom);
 	}
 
-	this.ChooseLangToCopy = function() {
-		qTranslateConfig.CopyFromLang = this.value;
-		jQuery('.qtranxs-lang-copy-select').each( function() { if(this.value != qTranslateConfig.CopyFromLang) this.value = qTranslateConfig.CopyFromLang; } );
-		setCopyFromLangCookie(qTranslateConfig.CopyFromLang);
-	}
-
 	/**
 	 * @since 3.3.2
 	 */
@@ -1249,7 +1258,7 @@ var qTranslateX=function(pg) {
 			var lang_conf = langs[lang];
 			var flag_location = qTranslateConfig.flag_location;
 			var li_title = qTranslateConfig.strings.ShowIn + lang_conf.admin_name + ' [:' + lang + ']';
-			var tabSwitch = qtranxj_ce('li', { lang: lang, className: 'qtranxs-lang-switch qtranxs-lang-switch-' + lang, title: li_title, onclick: qtx.switchActiveLanguage }, langSwitchWrap);
+			var tabSwitch = qtranxj_ce('li', { lang: lang, className: 'qtranxs-lang-switch qtranxs-lang-switch-' + lang, title: li_title, onclick: qtx.clickSwitchLanguage }, langSwitchWrap);	
 			var tabItem = tabSwitch;
 			if (qTranslateConfig.lsb_style_subitem == 'button') {
 				// reuse WordPress secondary button
@@ -1268,14 +1277,7 @@ var qTranslateX=function(pg) {
 			var tab = qtranxj_ce('li', { className: 'qtranxs-lang-switch qtranxs-lang-copy-li' }, langSwitchWrap);
 			var spn = qtranxj_ce('span', { className: 'qtranxs-lang-copy' }, tab);
 			var html = qTranslateConfig.strings.CopyFrom + '&nbsp;';
-			qtranxj_ce('span', { className: 'qtranxs-lang-copy-button', onclick: qtx.CopyContentFrom, title: qTranslateConfig.strings.CopyFromAlt, innerHTML: html }, spn);
-			html = '';
-			for(var lang in langs) {
-				var lang_conf = langs[lang];
-				html += '<option value="' + lang + '">' + lang_conf.name + '</option>';
-			}
-			var s = qtranxj_ce('select', { className: 'qtranxs-lang-copy-select', onchange: qtx.ChooseLangToCopy, title: qTranslateConfig.strings.ChooseLangToCopy, innerHTML: html }, spn);
-			s.value = qTranslateConfig.CopyFromLang;
+			qtranxj_ce('span', { className: 'qtranxs-lang-copy-button', onclick: qtx.toggleCopyFrom, title: qTranslateConfig.strings.CopyFromAlt, innerHTML: html }, spn);
 		}
 		return langSwitchWrap;
 	}
