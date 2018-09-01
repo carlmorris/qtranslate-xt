@@ -1190,11 +1190,8 @@ var qTranslateX=function(pg) {
 			var tabSwitches = qTranslateConfig.tabSwitches[qTranslateConfig.activeLanguage];
 			for(var i=0; i < tabSwitches.length; ++i){
 				tabSwitches[i].classList.remove(qTranslateConfig.lsb_style_active_class);
-				jQuery(tabSwitches[i]).find('button').removeClass('active');
-				//tabSwitches[i].classList.remove('active');
-				//tabSwitches[i].classList.remove('wp-ui-highlight');
+				jQuery(tabSwitches[i]).find('.button').removeClass('active');
 			}
-			//tabSwitches[qTranslateConfig.activeLanguage].classList.remove('active');
 		}
 		var langFrom = qTranslateConfig.activeLanguage;
 		qTranslateConfig.activeLanguage=lang;
@@ -1202,9 +1199,7 @@ var qTranslateX=function(pg) {
 			var tabSwitches = qTranslateConfig.tabSwitches[qTranslateConfig.activeLanguage];
 			for(var i=0; i < tabSwitches.length; ++i){
 				tabSwitches[i].classList.add(qTranslateConfig.lsb_style_active_class);
-				jQuery(tabSwitches[i]).find('button').addClass('active');
-				//tabSwitches[i].classList.add('active');
-				//tabSwitches[i].classList.add('wp-ui-highlight');
+				jQuery(tabSwitches[i]).find('.button').addClass('active');
 			}
 		}
 		var onTabSwitchFunctions = qTranslateConfig.onTabSwitchFunctions;
@@ -1255,12 +1250,16 @@ var qTranslateX=function(pg) {
 			var flag_location = qTranslateConfig.flag_location;
 			var li_title = qTranslateConfig.strings.ShowIn + lang_conf.admin_name + ' [:' + lang + ']';
 			var tabSwitch = qtranxj_ce('li', { lang: lang, className: 'qtranxs-lang-switch qtranxs-lang-switch-' + lang, title: li_title, onclick: qtx.switchActiveLanguage }, langSwitchWrap);
-			var buttonSwitch = qtranxj_ce('button', { className: 'button button-secondary', type: 'button' }, tabSwitch);
-			qtranxj_ce('img', { src: flag_location + lang_conf.flag }, buttonSwitch);
-			qtranxj_ce('span', { innerHTML: lang_conf.name }, buttonSwitch);
+			var tabItem = tabSwitch;
+			if (qTranslateConfig.lsb_style_subitem == 'button') {
+				// reuse WordPress secondary button
+				tabItem = qtranxj_ce('button', { className: 'button button-secondary', type: 'button' }, tabSwitch);
+			}
+			qtranxj_ce('img', { src: flag_location + lang_conf.flag }, tabItem);
+			qtranxj_ce('span', { innerHTML: lang_conf.name }, tabItem);
 			if(qTranslateConfig.activeLanguage == lang) {
 				tabSwitch.classList.add(qTranslateConfig.lsb_style_active_class);
-				jQuery(tabSwitch).find('button').addClass('active');
+				jQuery(tabSwitch).find('.button').addClass('active');
 			}
 			if(!qTranslateConfig.tabSwitches[lang]) qTranslateConfig.tabSwitches[lang] = [];
 			qTranslateConfig.tabSwitches[lang].push(tabSwitch);
