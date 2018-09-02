@@ -434,7 +434,7 @@ function qtranxf_add_admin_footer_js() {
 		//translators: Prompt on hover over select-element to choose the language to copy content from
 		$config['strings']['ChooseLangToCopy'] = __('Choose language to copy multilingual content from', 'qtranslate');
 		//translators: Title of button to copy content from otrher language
-		$config['strings']['CopyFrom'] = __('Copy from:', 'qtranslate');
+		$config['strings']['CopyFrom'] = __('Copy from', 'qtranslate');
 	}else{
 		$config['hide_lsb_copy_content'] = true;
 	}

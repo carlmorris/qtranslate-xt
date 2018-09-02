@@ -4,12 +4,12 @@
 	margin: 8px 0 4px;
 }
 
-.qtranxs-lang-switch-wrap li {
+.qtranxs-lang-switch, .qtranxs-lang-copy {
 	margin: 1px 2px 1px 0;
 	display: inline-block;
 }
 
-.qtranxs-lang-switch-wrap li .button {
+.qtranxs-lang-switch .button, .qtranxs-lang-copy .button {
 	height: auto;
 	padding: 0 6px;
 	border-radius: 0;
@@ -21,6 +21,11 @@
 	border: dashed 1px #0085ba;
 }
 
+.qtranxs-lang-switch-wrap.copying .qtranxs-lang-switch.active .button {
+	cursor: default;
+	border: double 1px #0085ba;
+}
+
 .qtranxs-lang-switch img {
 	vertical-align: middle;
 	margin-right: 4px;
@@ -29,10 +34,19 @@
 
 /* Button "Copy From" */
 
-li.qtranxs-lang-copy {
+.qtranxs-lang-copy .button {
 	margin-left: 20px;
+	font-size: 12px;
+	border-radius: 12px;
+	padding: 0 4px;
 }
 
-.qtranxs-lang-switch-wrap.copying li.qtranxs-lang-copy .button {
+.qtranxs-lang-copy .dashicons {
+	vertical-align: initial;
+	line-height: initial;
+	font-size: 12px;
+}
+
+.qtranxs-lang-switch-wrap.copying .qtranxs-lang-copy .button {
 	cursor: alias;
 }

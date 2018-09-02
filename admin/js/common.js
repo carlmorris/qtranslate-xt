@@ -1223,7 +1223,7 @@ var qTranslateX=function(pg) {
 
 	this.toggleCopyFrom = function() {
 		jQuery('.qtranxs-lang-switch-wrap').toggleClass('copying');
-		jQuery(this).toggleClass('active');
+		jQuery('.qtranxs-lang-copy .button').toggleClass('active');
 	}
 
 	this.copyContentFrom = function(langFrom) {
