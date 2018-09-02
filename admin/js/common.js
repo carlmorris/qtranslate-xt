@@ -1219,11 +1219,26 @@ var qTranslateX=function(pg) {
 			qtx.switchActiveLanguage(lang);
 		}
 		jQuery('.qtranxs-lang-switch-wrap').removeClass('copying');
+		jQuery('.qtranxs-lang-copy .button').removeClass('active');
 	}
 
 	this.toggleCopyFrom = function() {
 		jQuery('.qtranxs-lang-switch-wrap').toggleClass('copying');
 		jQuery('.qtranxs-lang-copy .button').toggleClass('active');
+		if (jQuery('.qtranxs-lang-switch-wrap').hasClass('copying')) {
+			jQuery('.qtranxs-lang-switch').each(function() {
+				jQuery(this).attr('orig-title', jQuery(this).attr('title'));
+				if (jQuery(this).attr('lang') == qTranslateConfig.activeLanguage)
+					jQuery(this).attr('title', qTranslateConfig.strings.CopyFromAlt);
+				else
+					jQuery(this).attr('title', qTranslateConfig.strings.CopyFrom + ' [:' + jQuery(this).attr('lang') + ']');
+			});
+		}
+		else {
+			jQuery('.qtranxs-lang-switch').each(function() {
+				jQuery(this).attr('title', jQuery(this).attr('orig-title'));
+			});
+		}
 	}
 
 	this.copyContentFrom = function(langFrom) {
@@ -1278,8 +1293,7 @@ var qTranslateX=function(pg) {
 			var tab = qtranxj_ce('li', { className: 'qtranxs-lang-copy' }, langSwitchWrap);
 			var btn = qtranxj_ce('button', { className: 'button button-secondary', type: 'button', title: qTranslateConfig.strings.CopyFromAlt, onclick: qtx.toggleCopyFrom}, tab);
 			qtranxj_ce('span', { className: 'dashicons dashicons-admin-page' }, btn);
-			var html = qTranslateConfig.strings.CopyFrom + '&nbsp;';
-			qtranxj_ce('span', { innerHTML: html }, btn);
+			qtranxj_ce('span', { innerHTML: qTranslateConfig.strings.CopyFrom }, btn);
 		}
 		return langSwitchWrap;
 	}

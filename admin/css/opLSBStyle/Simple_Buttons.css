@@ -9,10 +9,9 @@
 	display: inline-block;
 }
 
-.qtranxs-lang-switch .button, .qtranxs-lang-copy .button {
+.qtranxs-lang-switch-wrap .button {
 	height: auto;
 	padding: 0 6px;
-	border-radius: 0;
 	vertical-align: initial;
 }
 
@@ -32,18 +31,15 @@
 	margin-bottom: 2px;
 }
 
-/* Button "Copy From" */
-
 .qtranxs-lang-copy .button {
 	margin-left: 20px;
 	font-size: 12px;
 	border-radius: 12px;
-	padding: 0 4px;
+	padding: 0 8px 0 2px;
 }
 
 .qtranxs-lang-copy .dashicons {
 	vertical-align: initial;
-	line-height: initial;
 	font-size: 12px;
 }
 
