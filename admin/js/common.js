@@ -1211,11 +1211,11 @@ var qTranslateX=function(pg) {
 			return;
 		}
 		if (jQuery('.qtranxs-lang-switch-wrap').hasClass('copying')) {
-			//console.log('Copy from:', lang, ' to:', qTranslateConfig.activeLanguage);
+			console.log('Copy from:', lang, ' to:', qTranslateConfig.activeLanguage);
 			qtx.copyContentFrom(lang);
 			jQuery(tabSwitch).find('.button').blur();
 		} else {
-			//console.log('Switch from:', qTranslateConfig.activeLanguage, ' to:');
+			console.log('Switch from:', qTranslateConfig.activeLanguage, ' to:');
 			qtx.switchActiveLanguage(lang);
 		}
 		jQuery('.qtranxs-lang-switch-wrap').removeClass('copying');
@@ -1292,7 +1292,6 @@ var qTranslateX=function(pg) {
 		if(!qTranslateConfig.hide_lsb_copy_content) {
 			var tab = qtranxj_ce('li', { className: 'qtranxs-lang-copy' }, langSwitchWrap);
 			var btn = qtranxj_ce('button', { className: 'button button-secondary', type: 'button', title: qTranslateConfig.strings.CopyFromAlt, onclick: qtx.toggleCopyFrom}, tab);
-			qtranxj_ce('span', { className: 'dashicons dashicons-admin-page' }, btn);
 			qtranxj_ce('span', { innerHTML: qTranslateConfig.strings.CopyFrom }, btn);
 		}
 		return langSwitchWrap;
