@@ -212,7 +212,6 @@ var qTranslateX=function(pg) {
 	this.isLanguageEnabled=function(lang){ return !!qTranslateConfig.language_config[lang]; }
 
 	var setLangCookie=function(lang) { document.cookie='qtrans_edit_language='+lang; }
-	var setCopyFromLangCookie=function(lang) { document.cookie='qtrans_copy_language='+lang; }
 
 	if(qTranslateConfig.LSB){
 		qTranslateConfig.activeLanguage = qtranxj_get_cookie('qtrans_edit_language');
@@ -223,11 +222,6 @@ var qTranslateX=function(pg) {
 			}else{//no languages are enabled
 				qTranslateConfig.LSB = false;
 			}
-		}
-		qTranslateConfig.CopyFromLang = qtranxj_get_cookie('qtrans_copy_language');
-		if(!qTranslateConfig.CopyFromLang || !this.isLanguageEnabled(qTranslateConfig.CopyFromLang)){
-			qTranslateConfig.CopyFromLang = qTranslateConfig.default_language;
-			setCopyFromLangCookie(qTranslateConfig.CopyFromLang);
 		}
 	}else{
 		qTranslateConfig.activeLanguage = qTranslateConfig.language;
@@ -1211,11 +1205,9 @@ var qTranslateX=function(pg) {
 			return;
 		}
 		if (jQuery('.qtranxs-lang-switch-wrap').hasClass('copying')) {
-			console.log('Copy from:', lang, ' to:', qTranslateConfig.activeLanguage);
 			qtx.copyContentFrom(lang);
-			jQuery(tabSwitch).find('.button').blur();
+			jQuery(tabSwitch).find('.button').blur();	// remove focus of source language in case of layout with button
 		} else {
-			console.log('Switch from:', qTranslateConfig.activeLanguage, ' to:');
 			qtx.switchActiveLanguage(lang);
 		}
 		jQuery('.qtranxs-lang-switch-wrap').removeClass('copying');
@@ -1225,6 +1217,7 @@ var qTranslateX=function(pg) {
 	this.toggleCopyFrom = function() {
 		jQuery('.qtranxs-lang-switch-wrap').toggleClass('copying');
 		jQuery('.qtranxs-lang-copy .button').toggleClass('active');
+		// store or restore original title according to current mode (copy or switch)
 		if (jQuery('.qtranxs-lang-switch-wrap').hasClass('copying')) {
 			jQuery('.qtranxs-lang-switch').each(function() {
 				jQuery(this).attr('orig-title', jQuery(this).attr('title'));
@@ -1243,7 +1236,6 @@ var qTranslateX=function(pg) {
 
 	this.copyContentFrom = function(langFrom) {
 		var lang = qTranslateConfig.activeLanguage;
-		//var langFrom = qTranslateConfig.CopyFromLang;
 		var changed = false;
 		for(var key in contentHooks){
 			var h = contentHooks[key];
