@@ -1,0 +1,2393 @@
+# qTranslate-X Translation Template.
+# Copyright (C) 2015 qTranslate Team
+# This file is distributed under the same license as the qTranslate-X package.
+# qTranslate Team <qtranslateteam@gmail.com>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: qTranslate-X 3.4.6.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-12 17:22+0100\n"
+"PO-Revision-Date: 2018-09-12 18:02+0100\n"
+"Language-Team: qTranslate Team Translators\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"Last-Translator: Carl Morris <carl@morris.cymru>\n"
+"Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n != 8 && n != "
+"11) ? 2 : 3;\n"
+"Language: cy\n"
+
+#: admin/qtx_activation_hook.php:90 admin/qtx_activation_hook.php:104
+#: admin/qtx_activation_hook.php:107 admin/qtx_activation_hook.php:661
+#: admin/qtx_activation_hook.php:664 admin/qtx_activation_hook.php:722
+#: admin/qtx_configuration.php:213 admin/qtx_configuration.php:537
+#: admin/qtx_configuration.php:548 admin/qtx_configuration.php:550
+#: admin/qtx_configuration.php:552
+msgid "Configuration Files"
+msgstr "Ffeiliau Ffurfweddu"
+
+#: admin/qtx_activation_hook.php:90
+#, php-format
+msgid "Could not find file \"%s\" listed in option \"%s\"."
+msgstr ""
+"Methwyd â dod o hyd i ffeil \"%s\" sydd wedi'i rhestru yn opsiwn \"%s\"."
+
+#: admin/qtx_activation_hook.php:90 admin/qtx_activation_hook.php:104
+#: admin/qtx_activation_hook.php:107
+#, php-format
+msgid ""
+"Once the problem is fixed, re-save the configuration by pressing button \"%s"
+"\" on plugin %ssettings page%s."
+msgstr ""
+"Unwaith i'r broblem gael ei thrwsio, dylech ail-gadw'r ffurfweddiad drwy "
+"bwyso'r botwm \"%s\" ar %sdudalen gosodiadau%s yr ategyn."
+
+#: admin/qtx_activation_hook.php:90
+msgid "Please, either put file in place or update the option."
+msgstr "Dylech naill ai roi y ffeil yn ei lle neu ddiweddaru'r opsiwn."
+
+#: admin/qtx_activation_hook.php:90 admin/qtx_activation_hook.php:104
+#: admin/qtx_activation_hook.php:107 admin/qtx_configuration.php:119
+msgid "Save Changes"
+msgstr "Cadw Newidiadau"
+
+#: admin/qtx_activation_hook.php:104
+#, php-format
+msgid "Could not parse %s file \"%s\" listed in option \"%s\"."
+msgstr ""
+"Methwyd â dosrannu ffeil %s \"%s\" sydd wedi'i rhestru yn opsiwn \"%s\"."
+
+#: admin/qtx_activation_hook.php:104
+msgid "Please, correct the syntax error in the file."
+msgstr "Cywirwch y gwall cystrawen yn y ffeil."
+
+#: admin/qtx_activation_hook.php:107
+#, php-format
+msgid "Could not load file \"%s\" listed in option \"%s\"."
+msgstr "Methwyd â llwytho ffeil \"%s\" sydd wedi'i rhestru yn opsiwn \"%s\"."
+
+#: admin/qtx_activation_hook.php:107
+msgid "Please, make sure the file is accessible and readable."
+msgstr "Gwnewch yn siŵr bod y ffeil yn hygyrch ac yn ddarllenadwy."
+
+#: admin/qtx_activation_hook.php:556
+#, php-format
+msgid ""
+"Plugin %s requires PHP version %s at least. This server instance runs PHP "
+"version %s. A PHP version %s or higher is recommended. The plugin has not "
+"been activated."
+msgstr ""
+"Ar gyfer ategyn %s mae angen fersiwn PHP %s neu uwch. Mae'r gweinydd yma yn "
+"rhedeg fersiwn PHP %s. Argymhellir fersiwn PHP %s neu uwch. Nid yw'r ategyn "
+"wedi cael ei alluogi."
+
+#: admin/qtx_activation_hook.php:661
+#, php-format
+msgid ""
+"Option \"%s\" for plugin %s has been auto-adjusted after recent changes in "
+"the site configuration. It might be a good idea to %sreview the changes%s in "
+"the list of configuration files."
+msgstr ""
+"Cafodd opsiwn \"%s\" ar gyfer ategyn %s ei addasu'n awtomatig ar ôl "
+"newidiadau diweddar i ffurfweddiad y safle. Dylech %swirio'r newidiadau%s yn "
+"y rhestr o ffeiliau ffurfweddu."
+
+#: admin/qtx_activation_hook.php:664
+#, php-format
+msgid "Review Option \"%s\""
+msgstr "Adolygu Opsiwn \"%s\""
+
+#: admin/qtx_activation_hook.php:666
+msgid "Read Integration Guide"
+msgstr "Darllen y Canllawiau Integreiddio"
+
+#: admin/qtx_activation_hook.php:667 admin/qtx_activation_hook.php:681
+#: admin/qtx_activation_hook.php:947 admin/qtx_activation_hook.php:1012
+msgid "I have already done it, dismiss this message."
+msgstr "Rydw i eisoes wedi gwneud hynny, anwybyddu'r neges hon."
+
+#: admin/qtx_activation_hook.php:677
+#, php-format
+msgid "Are you new to plugin %s?"
+msgstr "Ydych chi'n defnyddio ategyn %s am y tro cyntaf?"
+
+#: admin/qtx_activation_hook.php:680
+msgid "Read Startup Guide"
+msgstr "Darllen y Canllawiau Cychwyn"
+
+#: admin/qtx_activation_hook.php:702 admin/qtx_activation_hook.php:794
+#: admin/qtx_import_export.php:99
+#, php-format
+msgid ""
+"It might be a good idea to review %smigration instructions%s, if you have "
+"not yet done so."
+msgstr ""
+"Byddai syniad da i chi ddarllen y %scyfarwyddiadau mudo%s os nad ydych chi "
+"wedi gwneud hynny'n barod."
+
+#: admin/qtx_activation_hook.php:703
+#, php-format
+msgid ""
+"Activation of plugin %s deactivated plugin %s since they cannot run "
+"simultaneously."
+msgstr ""
+"Drwy alluogi ategyn %s cafodd ategyn %s ei analluogi gan nad oes modd i'r "
+"ddau weithio ar yr un pryd."
+
+#: admin/qtx_activation_hook.php:705
+#, php-format
+msgid ""
+"The compatible settings from %s have been imported to %s. Further tuning, "
+"import, export and reset of options can be done at Settings/Languages "
+"configuration page, once %s is running.%sContinue%s"
+msgstr ""
+"Mae'r gosodiadau cydnawsedd o %s wedi cael eu mewnforio i %s. Mae modd "
+"cyweirio, mewnforio, allforio ac ailosod opsiynau ar y dudalen ffurfweddu "
+"Gosodiadau/Ieithoedd unwaith y bydd %s yn rhedeg. %sParhau%s"
+
+#: admin/qtx_activation_hook.php:707
+#, php-format
+msgid ""
+"You may import/export compatible settings from %s to %s on Settings/"
+"Languages configuration page, once %s is running.%sContinue%s"
+msgstr ""
+"Gallwch fewnforio/allforio gosodiadau cydnawsedd o %s i %s ar y dudalen "
+"ffurfweddu Gosodiadau/Ieithoedd unwaith y bydd %s yn rhedeg. %sParhau%s"
+
+#: admin/qtx_activation_hook.php:720 admin/qtx_configuration.php:476
+#: admin/qtx_configuration.php:480 admin/qtx_user_options.php:20
+msgid "Highlight Style"
+msgstr "Arddull Uwcholeuo"
+
+#: admin/qtx_activation_hook.php:720 admin/qtx_configuration.php:445
+#: admin/qtx_configuration.php:448
+msgid "LSB Style"
+msgstr "Arddull LSB"
+
+#: admin/qtx_activation_hook.php:792
+#, php-format
+msgid ""
+"%sError:%s plugin %s cannot run concurrently with plugin %s. You may import "
+"and export compatible settings between %s and %s on Settings/<a href=\"%s"
+"\">Languages</a> configuration page. Then you have to deactivate one of the "
+"plugins to continue."
+msgstr ""
+"%sGwall:%s ni all ategyn %s redeg ar yr un pryd ag ategyn %s. Gallwch "
+"fewnforio ac allforio gosodiadau cydnawsedd rhwng %s a %s ar y dudalen "
+"ffurfweddu Gosodiadau/<a href=\"%s\">Ieithoedd</a>. Yna bydd yn rhaid i chi "
+"analluogi un o'r ategion i barhau."
+
+#: admin/qtx_activation_hook.php:797 admin/qtx_activation_hook.php:799
+#, php-format
+msgid "Deactivate %s"
+msgstr "Analluogi %s"
+
+#: admin/qtx_activation_hook.php:835
+#, php-format
+msgid ""
+"Plugin %s may be integrated with multilingual plugin %s with a help of "
+"plugin %s."
+msgstr ""
+"Efallai bod modd integreiddio %s gydag ategyn amlieithog %s gyda chymorth "
+"ategyn %s."
+
+#: admin/qtx_activation_hook.php:837
+msgid "Please, press an appropriate button below."
+msgstr "Pwyswch y botwm perthnasol isod."
+
+#: admin/qtx_activation_hook.php:841
+#, php-format
+msgid "Activate plugin %s"
+msgstr "Galluogi ategyn %s"
+
+#: admin/qtx_activation_hook.php:843
+#, php-format
+msgid "Install plugin %s"
+msgstr "Gosod ategyn %s"
+
+#: admin/qtx_activation_hook.php:845
+msgid "I am aware of that, dismiss this message."
+msgstr "Rwy'n ymwybodol o hynny, anwybyddu'r neges yma."
+
+#: admin/qtx_activation_hook.php:913 admin/qtx_activation_hook.php:916
+#: admin/qtx_activation_hook.php:942
+#, php-format
+msgid "Thank you for using %s plugin!"
+msgstr "Diolch am ddefnyddio ategyn %s!"
+
+#: admin/qtx_activation_hook.php:919
+msgid "Our team would greatly appreciate any feedback:"
+msgstr "Byddai'r tîm yn gwerthfawrogi eich adborth:"
+
+#: admin/qtx_activation_hook.php:921
+#, php-format
+msgid "%sUse Support Forum%s to ask a question."
+msgstr "%sDefnyddiwch y Fforwm Cymorth%s i ofyn unrhyw gwestiynau."
+
+#: admin/qtx_activation_hook.php:923
+#, php-format
+msgid "%sVisit%s %s website."
+msgstr "%sYmweld%s â gwefan %s."
+
+#: admin/qtx_activation_hook.php:925
+#, php-format
+msgid "%sShare a new idea%s with our community."
+msgstr "%sRhannu syniad newydd%s gyda ein cymuned."
+
+#: admin/qtx_activation_hook.php:927
+#, php-format
+msgid "%sReview the plugin%s at WordPress site."
+msgstr "%sAdolygu'r ategyn%s ar safle WordPress."
+
+#: admin/qtx_activation_hook.php:930
+msgid "Thank me again in a few months!"
+msgstr "Diolchwch i fi eto mewn ychydig fisoedd!"
+
+#: admin/qtx_activation_hook.php:944
+#, php-format
+msgid ""
+"Please, help us to make a decision on \"%s\" feature, press the button below."
+msgstr ""
+"Helpwch ni i wneud penderfyniad ynghylch dyfodol \"%s\". Pwyswch y botwm "
+"isod."
+
+#: admin/qtx_activation_hook.php:944 admin/qtx_activation_hook.php:946
+#: qtranslate_services.php:772
+msgid "Translation Service"
+msgstr "Gwasanaeth Cyfieithu"
+
+#: admin/qtx_activation_hook.php:946
+#, php-format
+msgid "Survey on \"%s\" feature"
+msgstr "Arolwg ar ddyfodol \"%s\""
+
+#: admin/qtx_activation_hook.php:958
+msgid "Error"
+msgstr "Gwall"
+
+#: admin/qtx_activation_hook.php:1004
+#, php-format
+msgid ""
+"The latest version of plugin %s has a number of new options, for example, "
+"%s, which may change the look of some pages. Please, review the help text of "
+"new options on %sconfiguration page%s."
+msgstr ""
+"Mae gan y fersiwn diweddaraf o ategyn %s nifer o opsiynau newydd, er "
+"enghraifft, %s, a allai newid edrychiad rhai tudalennau. Darllenwch y testun "
+"cymorth ar gyfer opsiynau newydd ar y %sdudalen ffurfweddu%s."
+
+#: admin/qtx_activation_hook.php:1009
+#, php-format
+msgid ""
+"It is recommended to review %sRelease Notes%s for this new version of %s "
+"before making any further changes."
+msgstr ""
+"Rydym yn argymell eich bod yn darllen y %sNodiadau Rhyddhau%s ar gyfer y "
+"fersiwn newydd hwn o %s cyn i chi wneud newidiadau pellach."
+
+#: admin/qtx_admin.php:366
+#, php-format
+msgid "Could not find script file \"%s\" for handle \"%s\"."
+msgstr "Ni ddaethpwyd o hyd i ffeil sgript \"%s\" ar gyfer y ddolen \"%s\"."
+
+#: admin/qtx_admin.php:621
+msgid "Language Management"
+msgstr "Rheoli Ieithoedd"
+
+#: admin/qtx_admin.php:621 admin/qtx_admin_utils.php:520
+#: admin/qtx_configuration.php:141
+msgid "Languages"
+msgstr "Ieithoedd"
+
+#: admin/qtx_admin.php:629
+msgid "Language Menu"
+msgstr "Dewislen Ieithoedd"
+
+#: admin/qtx_admin.php:681
+msgid "Help"
+msgstr "Cymorth"
+
+#: admin/qtx_admin.php:684
+msgid ""
+"Menu item added is replaced with a drop-down menu of available languages, "
+"when menu is rendered."
+msgstr ""
+"Mae'r eitem a ychwanegwyd i'r ddewislen yn cael ei amnewid am gwymplen o'r "
+"ieithoedd sydd ar gael pan fydd y ddewislen yn cael ei rendro."
+
+#: admin/qtx_admin.php:686
+#, php-format
+msgid ""
+"The rendered menu items have CSS classes %s and %s (\"%s\" is a language "
+"code), which can be defined in theme style, if desired. The label of "
+"language menu can also be customized via field \"%s\" in the menu "
+"configuration."
+msgstr ""
+"Mae gan yr eitemau dewislen a gyflwynwyd ddosbarthiadau CSS %s a %s (&quot;"
+"%s&quot; yw cod yr iaith), y gellir ei ddiffinio yn arddull thema, os "
+"dymunir. Gellir hefyd addasu&#39;r label o ddewislen iaith trwy gyfaddasu "
+"&quot;%s&quot; yn ffurfweddiad y ddewislen."
+
+#: admin/qtx_admin.php:688
+#, php-format
+msgid ""
+"The field \"%s\" of inserted menu item allows additional configuration "
+"described in %sFAQ%s."
+msgstr ""
+"Mae'r maes \"%s\" o'r eitem a fewnbynnwyd ar gyfer y ddewislen yn galluogi "
+"ffurfweddu ychwanegol fel sydd wedi'i ddisgrifio yn y %sCwestiynau Cyffredin"
+"%s."
+
+#: admin/qtx_admin.php:693
+msgid "Add to Menu"
+msgstr "Ychwanegu at y Ddewislen"
+
+#: admin/qtx_admin.php:702
+msgid "Language Switcher"
+msgstr "Newidydd Iaith"
+
+#: admin/qtx_admin.php:740
+msgid "Settings"
+msgstr "Gosodiadau"
+
+#: admin/qtx_admin_options_update.php:30
+msgid "qTranslate has been reset."
+msgstr "Mae qTranslate wedi'i ailosod."
+
+#: admin/qtx_admin_options_update.php:43
+msgid "The Language must have a Not-Available Message!"
+msgstr "Rhaid i'r Iaith fod â Neges Ddim Ar Gael!"
+
+#: admin/qtx_admin_options_update.php:44
+msgid "The Language must have a Locale!"
+msgstr "Rhaid i'r Iaith fod â Locale!"
+
+#: admin/qtx_admin_options_update.php:45
+msgid "The Language must have a name!"
+msgstr "Rhaid i'r Iaith gael enw!"
+
+#: admin/qtx_admin_options_update.php:46 admin/qtx_admin_options_update.php:170
+msgid "Language Code has to be 2 characters long!"
+msgstr "Rhaid i'r Cod Iaith fod yn ddau nod o hyd!"
+
+#: admin/qtx_admin_options_update.php:53 admin/qtx_admin_options_update.php:58
+msgid "There is already a language with the same Language Code!"
+msgstr "Mae'r Cod Iaith yna'n cael ei ddefnyddio'n barod!"
+
+#: admin/qtx_admin_options_update.php:108
+#, php-format
+msgid ""
+"The new language properties have been saved. If you think these properties "
+"should be the preset default, please %ssend email%s to the development team."
+msgstr ""
+
+#: admin/qtx_admin_options_update.php:131
+#, php-format
+msgid "%d database entries have been converted."
+msgstr "Mae %d o gofnodion yn y gronfa ddata wedi cael eu trawsnewid."
+
+#: admin/qtx_admin_options_update.php:133
+msgid ""
+"No database entry has been affected while processing the conversion request."
+msgstr ""
+"Ni effeithiwyd ar unrhyw gofnodion yn y gronfa ddata wrth brosesu'r cais "
+"trawsnewid."
+
+#: admin/qtx_admin_options_update.php:157
+#, php-format
+msgid "%d pages have been processed to set the default language."
+msgstr ""
+"Mae %d o dudalennau wedi cael eu prosesu er mwyn pennu'r iaith ddiofyn."
+
+#: admin/qtx_admin_options_update.php:158
+msgid "No initially untranslated pages found to set the default language"
+msgstr ""
+"Dim tudalennau heb eu cyfieithu wedi eu canfod i gychwyn er mwyn gosod yr "
+"iaith ddiofyn"
+
+#: admin/qtx_admin_options_update.php:160
+#, php-format
+msgid "%d posts have been processed to set the default language."
+msgstr "Mae %d o gofnodion wedi cael eu prosesu er mwyn pennu'r iaith ddiofyn."
+
+#: admin/qtx_admin_options_update.php:161
+msgid "No initially untranslated posts found to set the default language."
+msgstr ""
+"Dim cofnodion heb eu cyfieithu wedi eu canfod i gychwyn er mwyn gosod yr "
+"iaith ddiofyn."
+
+#: admin/qtx_admin_options_update.php:163
+#, php-format
+msgid ""
+"Post types other than \"post\" or \"page\", as well as unpublished entries, "
+"will have to be adjusted manually as needed, since there is no common way to "
+"automate setting the default language otherwise. It can be done with a "
+"custom script though. You may request a %spaid support%s for this."
+msgstr ""
+"Bydd yn rhaid addasu mathau cofnod heblaw &quot;post&quot; neu &quot;"
+"dudalen&quot;, yn ogystal â chofnodion heb eu cyhoeddi, â llaw yn ôl yr "
+"angen, gan nad oes modd cyffredin i awtomeiddio gosod yr iaith ddiofyn fel "
+"arall. Gellir ei wneud gyda sgript arferol. Gallwch ofyn am %sgymorth%s ar "
+"gyfer hyn."
+
+#: admin/qtx_admin_options_update.php:199
+msgid "Language is already enabled or invalid!"
+msgstr "Mae'r iaith eisoes wedi'i galluogi neu mae'n annilys!"
+
+#: admin/qtx_admin_options_update.php:206
+msgid "Cannot disable Default Language!"
+msgstr "Nid oes modd analluogi'r Iaith Ddiofyn!"
+
+#: admin/qtx_admin_options_update.php:209
+#: admin/qtx_admin_options_update.php:218
+#: admin/qtx_admin_options_update.php:237
+msgid "No such language!"
+msgstr "Dim iaith o'r fath yn bodoli!"
+
+#: admin/qtx_admin_options_update.php:212
+msgid "Language is already disabled!"
+msgstr "Mae'r iaith eisoes wedi'i hanalluogi!"
+
+#: admin/qtx_admin_options_update.php:222
+msgid "Language is already first!"
+msgstr "Mae'r iaith eisoes yn y safle cyntaf!"
+
+#: admin/qtx_admin_options_update.php:228
+#: admin/qtx_admin_options_update.php:247
+msgid "New order saved."
+msgstr "Trefn newydd wedi'i chadw."
+
+#: admin/qtx_admin_options_update.php:241
+msgid "Language is already last!"
+msgstr "Mae'r iaith eisoes yn y safle olaf!"
+
+#: admin/qtx_admin_options_update.php:261
+msgid "Options saved."
+msgstr "Opsiynau wedi'u cadw."
+
+#: admin/qtx_admin_options_update.php:267
+#, php-format
+msgid "Could not write to \"%s\", Gettext Databases could not be downloaded!"
+msgstr ""
+"Methwyd ag ysgrifennu i \"%s\". Nid oedd modd llwytho Cronfeydd Data Gettext "
+"i lawr!"
+
+#: admin/qtx_admin_options_update.php:282
+msgid ""
+"Admin notices have been reset. You will see all applicable notices on admin "
+"pages and may dismiss them again."
+msgstr ""
+"Mae'r hysbysiadau gweinyddol wedi'u hailosod. Byddwch yn gweld yr holl "
+"hysbysiadau perthnasol ar y tudalennau gweinyddol a gallwch eu diystyru nhw "
+"eto."
+
+#: admin/qtx_admin_options_update.php:719
+#, php-format
+msgid "Cannot parse JSON code in the field \"%s\"."
+msgstr "Nid oes modd dosbarthu'r cod JSON i'r maes \"%s\"."
+
+#: admin/qtx_admin_options_update.php:719 admin/qtx_configuration.php:213
+#: admin/qtx_configuration.php:541 admin/qtx_configuration.php:547
+msgid "Custom Configuration"
+msgstr "Ffurfweddiad Cyfaddas"
+
+#: admin/qtx_admin_options_update.php:776
+msgid "Gettext databases updated."
+msgstr "Diweddarwyd cronfeydd data Gettext."
+
+#: admin/qtx_admin_utils.php:211
+msgid "Database has been converted to square bracket format."
+msgstr "Mae'r gronfa ddata wedi'i thrawsnewid i'r arddull cromfach sgwâr."
+
+#: admin/qtx_admin_utils.php:211 admin/qtx_admin_utils.php:213
+msgid "Note: custom entries are not touched."
+msgstr "Nodyn: nid yw'r cofnodion cyfaddas wedi'u cyffwrdd."
+
+#: admin/qtx_admin_utils.php:213
+msgid "Database has been converted to legacy dual-tag format."
+msgstr "Mae'r gronfa ddata wedi'i thrawsnewid i'r arddull tag-deuol."
+
+#: admin/qtx_admin_utils.php:530
+msgctxt ""
+"Appears in the column \"Languages\" on post listing pages, when content has "
+"no language tags yet."
+msgid "Languages are not set"
+msgstr "Nid yw'r ieithoedd wedi'u pennu"
+
+#: admin/qtx_admin_utils.php:540
+msgid "Unknown Language"
+msgstr "Iaith Anhysbys"
+
+#: admin/qtx_admin_utils.php:541
+msgid "Not enabled"
+msgstr "Heb ei galluogi"
+
+#: admin/qtx_admin_utils.php:785
+msgid "Language Switching Buttons"
+msgstr "Botymau Newid Iaith"
+
+#: admin/qtx_admin_utils.php:785
+#, php-format
+msgid ""
+"This is a set of \"%s\" from %s. Click any blank space between the buttons "
+"and drag it to a place where you would need it the most. Click the handle at "
+"the top-right corner of this widget to hide this message."
+msgstr ""
+"Mae hwn yn set o \"%s\" o %s. Cliciwch ar unrhyw fwlch gwag rhwng y botymau "
+"a'i lusgo i le lle byddech chi ei angen fwyaf. Cliciwch y ddolen yng "
+"nghornel dde uchaf y teclyn i guddio'r neges."
+
+#: admin/qtx_admin_utils.php:801 qtranslate_frontend.php:255
+#: qtranslate_widget.php:50
+msgid "Language"
+msgstr "Iaith"
+
+#: admin/qtx_configuration.php:25 admin/qtx_configuration.php:87
+msgid "Language Code"
+msgstr "Cod Iaith"
+
+#: admin/qtx_configuration.php:27
+msgid ""
+"2-Letter <a href=\"http://www.w3.org/WAI/ER/IG/ert/iso639.htm#2letter\">ISO "
+"Language Code</a> for the Language you want to insert. (Example: en)"
+msgstr ""
+"<a href=\"http://www.w3.org/WAI/ER/IG/ert/iso639.htm#2letter\">Cod Iaith "
+"ISO</a> dwy lythyren ar gyfer yr iaith rydych chi am ei mewnbynnu. "
+"(Enghraifft: cy)"
+
+#: admin/qtx_configuration.php:27
+msgid ""
+"The language code is used in language tags and in URLs. It is case "
+"sensitive. Use of lower case for the language code is preferable, but not "
+"required. The code may be arbitrary chosen by site owner, although it is "
+"preferable to use already commonly accepted code if available. Once a "
+"language code is created and entries for this language are made, it is "
+"difficult to change it, please make a careful decision."
+msgstr ""
+"Defnyddir y cod iaith mewn tagiau iaith ac mewn URLs. Mae&#39;n achos "
+"sensitif. Mae defnyddio llythrennau bach ar gyfer y cod iaith yn well, ond "
+"nid yw&#39;n ofynnol. Efallai y bydd y cod yn ddewis mympwyol gan berchennog "
+"y wefan, er ei bod yn well defnyddio&#39;r cod sydd eisoes wedi&#39;i "
+"dderbyn yn gyffredin os yw ar gael. Unwaith y creir cod iaith a bod "
+"cofnodion ar gyfer yr iaith hon yn cael eu gwneud, mae&#39;n anodd ei newid, "
+"gwnewch benderfyniad gofalus."
+
+#: admin/qtx_configuration.php:30 admin/qtx_configuration.php:53
+#: admin/qtx_configuration.php:626
+msgid "Flag"
+msgstr "Baner"
+
+#: admin/qtx_configuration.php:56
+msgid "Incorrect Flag Image Path! Please correct it!"
+msgstr "Llwybr Delwedd Baner Anghywir! Cywirwch y llwybr!"
+
+#: admin/qtx_configuration.php:59
+msgid "Choose the corresponding country flag for language. (Example: gb.png)"
+msgstr "Dewiswch faner y wlad sy'n cyd-fynd â'r iaith. (Enghraifft: dg.png)"
+
+#: admin/qtx_configuration.php:71
+msgid "(in native alphabet)"
+msgstr "(yn yr wyddor frodorol)"
+
+#: admin/qtx_configuration.php:71 admin/qtx_configuration.php:627
+msgid "Name"
+msgstr "Enw"
+
+#: admin/qtx_configuration.php:73
+msgid ""
+"The Name of the language, which will be displayed on the site. (Example: "
+"English)"
+msgstr "Enw'r iaith a fydd yn ymddangos ar y safle. (Enghraifft: Cymraeg)"
+
+#: admin/qtx_configuration.php:76
+msgid "Locale"
+msgstr "Locale"
+
+#: admin/qtx_configuration.php:79
+msgid "PHP and Wordpress Locale for the language. (Example: en_US)"
+msgstr "Locale PHP a WordPress ar gyfer yr iaith. (Enghraifft: cy_UK)"
+
+#: admin/qtx_configuration.php:80
+msgid "You will need to install the .mo file for this language."
+msgstr "Bydd angen i chi osod y ffeil .mo ar gyfer yr iaith yma."
+
+#: admin/qtx_configuration.php:84
+msgid "Locale at front-end"
+msgstr "Locale ar y dudalen flaen"
+
+#: admin/qtx_configuration.php:87
+#, php-format
+msgid ""
+"Locale to be used in browser at front-end to set %s HTML attributes to "
+"specify alternative languages on a page. If left empty, then \"%s\" is used "
+"by default."
+msgstr ""
+"Y locale sydd i'w defnyddio yn y porwr ar y dudalen flaen i bennu nodweddion "
+"%s HTML i nodi ieithoedd amgen ar y dudalen. Os yn wag, bydd \"%s\" yn cael "
+"ei defnyddio yn ddiofyn."
+
+#: admin/qtx_configuration.php:91
+msgid "Date Format"
+msgstr "Fformat y Dyddiad"
+
+#: admin/qtx_configuration.php:93
+msgid ""
+"Depending on your Date / Time Conversion Mode, you can either enter a <a "
+"href=\"http://www.php.net/manual/function.strftime.php\">strftime</a> (use "
+"%q for day suffix (st,nd,rd,th)) or <a href=\"http://www.php.net/manual/"
+"function.date.php\">date</a> format. This field is optional. (Example: %A %B "
+"%e%q, %Y)"
+msgstr ""
+"Gan ddibynnu ar eich Modd Trawsnewid Dyddiad / Amser, gallwch naill ai roi "
+"<a href=\"http://www.php.net/manual/function.strftime.php\">strftime</a> i "
+"mewn (defnyddiwch %q fel olddodiad diwrnod (st,nd,rd,th)) neu fformat <a "
+"href=\"http://www.php.net/manual/function.date.php\">dyddiad</a>. Mae'r maes "
+"yma'n ddewisol. (Enghraifft: %A %B %e%q, %Y)"
+
+#: admin/qtx_configuration.php:96
+msgid "Time Format"
+msgstr "Fformat Amser"
+
+#: admin/qtx_configuration.php:98
+msgid ""
+"Depending on your Date / Time Conversion Mode, you can either enter a <a "
+"href=\"http://www.php.net/manual/function.strftime.php\">strftime</a> or <a "
+"href=\"http://www.php.net/manual/function.date.php\">date</a> format. This "
+"field is optional. (Example: %I:%M %p)"
+msgstr ""
+"Gan ddibynnu ar eich Modd Trawsnewid Dyddiad / Amser, gallwch naill ai roi "
+"<a href=\"http://www.php.net/manual/function.strftime.php\">strftime</a> i "
+"mewn neu fformat <a href=\"http://www.php.net/manual/function.date.php"
+"\">dyddiad</a>. Mae'r maes yma'n ddewisol. (Enghraifft: %I:%M %p)"
+
+#: admin/qtx_configuration.php:101 admin/qtx_configuration.php:330
+msgid "Not Available Message"
+msgstr "Neges Ddim Ar Gael"
+
+#: admin/qtx_configuration.php:104
+msgid ""
+"Message to display if post is not available in the requested language. "
+"(Example: Sorry, this entry is only available in %LANG:, : and %.)"
+msgstr ""
+"Neges i'w dangos os nad yw'r cofnod ar gael yn yr iaith o ddewis. "
+"(Enghraifft: Dim ond yn %LANG, : a % mae'r cofnod yma ar gael.)"
+
+#: admin/qtx_configuration.php:105
+msgid ""
+"%LANG:&lt;normal_separator&gt;:&lt;last_separator&gt;% generates a list of "
+"languages separated by &lt;normal_separator&gt; except for the last one, "
+"where &lt;last_separator&gt; will be used instead."
+msgstr ""
+"Mae %LANG:&lt;normal_separator&gt;:&lt;last_separator&gt;% yn creu rhestr o "
+"ieithoedd wedi'i gwahanu gan &lt;normal_separator&gt; ac eithrio'r un olaf, "
+"lle bydd &lt;last_separator&gt; yn cael ei ddefnyddio yn lle."
+
+#: admin/qtx_configuration.php:107
+#, php-format
+msgid ""
+"The language names substituted into the list of available languages are "
+"shown translated in the active language. The nominative form of language "
+"names is used as it is fetched from %s may not fit the grammar rules of your "
+"language. It is then advisable to include quotes in this message like this "
+"\"%s\". Alternatively you may modify \"%s\" files in folder \"%s\" with "
+"names that fit your grammar rules. Please, %scontact the development team%s, "
+"if you decide to modify \"%s\" files."
+msgstr ""
+
+#: admin/qtx_configuration.php:133
+msgid "General"
+msgstr "Cyffredinol "
+
+#: admin/qtx_configuration.php:134
+msgid "Advanced"
+msgstr "Uwch"
+
+#: admin/qtx_configuration.php:139
+msgid "Integration"
+msgstr "Integreiddio"
+
+#: admin/qtx_configuration.php:140 admin/qtx_configuration.php:316
+msgid "Export"
+msgstr "Allforio"
+
+#: admin/qtx_configuration.php:140 admin/qtx_configuration.php:316
+msgid "Import"
+msgstr "Mewnforio"
+
+#: admin/qtx_configuration.php:153
+msgid "Switching Language"
+msgstr "Newid Iaith"
+
+#: admin/qtx_configuration.php:153
+#, php-format
+msgid ""
+"Switching language to %1$s... If the Dashboard isn't loading, use this <a "
+"href=\"%2$s\" title=\"Dashboard\">link</a>."
+msgstr ""
+"Newid iaith i %1$s... Os nad yw'r Bwrdd Rheoli yn llwytho, defnyddiwch y <a "
+"href=\"%2$s\" title=\"Dashboard\">ddolen</a> yma."
+
+#: admin/qtx_configuration.php:173
+msgid "Edit Language"
+msgstr "Golygu Iaith"
+
+#: admin/qtx_configuration.php:179
+msgid "Save Changes &raquo;"
+msgstr "Cadw Newidiadau &raquo;"
+
+#: admin/qtx_configuration.php:181 admin/qtx_configuration.php:210
+#: admin/qtx_configuration.php:217
+msgid "back to configuration page"
+msgstr "yn ôl i'r dudalen ffurfweddu"
+
+#: admin/qtx_configuration.php:185
+msgid "Language Management (qTranslate Configuration)"
+msgstr "Rheoli Iaith (Ffurfweddu qTranslate)"
+
+#: admin/qtx_configuration.php:186
+#, php-format
+msgid ""
+"For help on how to configure qTranslate correctly, take a look at the <a "
+"href=\"%1$s\">qTranslate FAQ</a> and the <a href=\"%2$s\">Support Forum</a>."
+msgstr ""
+"Er mwyn cael cymorth ar sut i ffurfweddu qTranslate yn gywir, ewch i "
+"ddarllen <a href=\"%1$s\">Cwestiynau Cyffredin qTranslate</a> a'r <a href="
+"\"%2$s\">Fforwm Cymorth</a>."
+
+#: admin/qtx_configuration.php:193
+#, php-format
+msgid ""
+"Plugin development is supported through your %sdonations to the development "
+"team%s."
+msgstr ""
+"Mae datblygiadau i'r ategyn yn cael eu cefnogi gan eich %scyfraniadau i'r "
+"tîm datblygu%s."
+
+#: admin/qtx_configuration.php:211 admin/qtx_configuration.php:541
+#: admin/qtx_configuration.php:552
+msgid "Configuration Inspector"
+msgstr "Archwilydd Ffurfweddu"
+
+#: admin/qtx_configuration.php:213
+#, php-format
+msgid ""
+"Review a combined JSON-encoded configuration as loaded from options %s and "
+"%s, as well as from the theme and other plugins via filters %s and %s."
+msgstr ""
+"Adolygwch ffurfweddiad amgaeedig JSON cyfun fel y&#39;i llwythwyd o opsiynau "
+"%s a %s, yn ogystal â&#39;r thema a ategion eraill trwy hidlwyr %s a %s."
+
+#: admin/qtx_configuration.php:214 admin/qtx_configuration.php:542
+#: admin/qtx_configuration.php:551
+#, php-format
+msgid "Please, read %sIntegration Guide%s for more information."
+msgstr "Darllenwch y %sCanllawiau Integreiddio%s i gael rhagor o wybodaeth."
+
+#: admin/qtx_configuration.php:216
+#, php-format
+msgid ""
+"Note to developers: ensure that front-end filter %s is also active on admin "
+"side, otherwise the changes it makes will not show up here. Having this "
+"filter active on admin side does not affect admin pages functionality, "
+"except this field."
+msgstr ""
+"Nodyn i ddatblygwyr: gwnewch yn siŵr fod yr hidlydd %s blaen hefyd yn "
+"weithredol ar yr ochr weinyddol, fel arall ni fydd y newidiadau a wneir yn "
+"ymddangos yma. Nid yw cael yr hidlydd hwn yn weithgar ar yr ochr weinyddol "
+"yn effeithio ar ymarferoldeb tudalennau gweinyddol, ac eithrio&#39;r maes "
+"hwn."
+
+#: admin/qtx_configuration.php:223
+#, php-format
+msgid "Click to switch to %s"
+msgstr "Cliciwch i newid i %s"
+
+#: admin/qtx_configuration.php:237 admin/qtx_configuration.php:323
+msgid "Default Language / Order"
+msgstr "Iaith / Trefn Ddiofyn"
+
+#: admin/qtx_configuration.php:238
+msgid ""
+"Every multilingual field is expected to have a meaningful content in the "
+"\"Default Language\". Usually, it is the language of your site before it "
+"became multilingual."
+msgstr ""
+"Mae disgwyl i bob maes aml-iaith fod â chynnwys ystyrlon o dan \"Iaith Diofyn"
+"\". Fel arfer, iaith eich safle cyn iddi ddod yn amlieithog fydd hwn."
+
+#: admin/qtx_configuration.php:239
+msgid ""
+"Order of languages defines in which order they are listed, when languages "
+"need to be listed, otherwise it is not important."
+msgstr ""
+"Mae trefn ieithoedd yn diffinio ym mha drefn maen nhw'n cael eu rhestru pan "
+"fydd angen i ieithoedd gael eu rhestru, fel arall nid yw'n bwysig."
+
+#: admin/qtx_configuration.php:242
+msgid "Default Language"
+msgstr "Iaith Ddiofyn"
+
+#: admin/qtx_configuration.php:256 admin/qtx_configuration.php:668
+#: admin/qtx_configuration.php:686
+msgid "Disable"
+msgstr "Analluogi"
+
+#: admin/qtx_configuration.php:256 admin/qtx_configuration.php:629
+#: admin/qtx_configuration.php:669 admin/qtx_configuration.php:687
+msgid "Edit"
+msgstr "Golygu"
+
+#: admin/qtx_configuration.php:264
+#, php-format
+msgid ""
+"Choose the default language of your blog. This is the language which will be "
+"shown on %s. You can also change the order the languages by clicking on the "
+"arrows above."
+msgstr ""
+"Dewiswch yr iaith ddiofyn ar gyfer eich blog. Dyma'r iaith a fydd yn "
+"ymddangos ar %s. Gallwch hefyd newid trefn yr ieithoedd drwy glicio ar yr "
+"arwyddion uchod."
+
+#: admin/qtx_configuration.php:269 admin/qtx_configuration.php:271
+#: admin/qtx_configuration.php:388
+msgid "URL Modification Mode"
+msgstr "Modd Addasu URL"
+
+#: admin/qtx_configuration.php:272
+msgid "Most SEO unfriendly, not recommended."
+msgstr "Lleiaf cyfeillgar i SEO, ni argymhellir."
+
+#: admin/qtx_configuration.php:272
+msgid "Use Query Mode (?lang=en)"
+msgstr "Defnyddio Modd Ymholiad (?lang=en)"
+
+#: admin/qtx_configuration.php:279
+msgid "SEO friendly."
+msgstr "Yn gyfeillgar i SEO."
+
+#: admin/qtx_configuration.php:279
+msgid "Use Pre-Path Mode (Default, puts /en/ in front of URL)"
+msgstr ""
+"Defnyddio Modd Rhag-Lwybr (Yn ddiofyn, mae hyn yn rhoi /cy/ o flaen yr URL)"
+
+#: admin/qtx_configuration.php:280
+msgid "Use Pre-Domain Mode (uses http://en.yoursite.com)"
+msgstr "Defnyddio Modd Rhag-Barth (yn defnyddio http://en.yoursite.com)"
+
+#: admin/qtx_configuration.php:280
+msgid "You will need to configure DNS sub-domains on your site."
+msgstr "Bydd angen i chi ffurfweddu is-barthau DNS ar eich safle."
+
+#: admin/qtx_configuration.php:285
+msgid "Hide URL language information for default language."
+msgstr "Cuddio gwybodaeth iaith URL ar gyfer yr iaith ddiofyn."
+
+#: admin/qtx_configuration.php:286
+msgid "This is only applicable to Pre-Path and Pre-Domain mode."
+msgstr "Dim ond ar gyfer modd Rhag-Lwybr a Rhag-Barth mae hwn yn berthnasol."
+
+#: admin/qtx_configuration.php:291
+msgid ""
+"Use Per-Domain mode: specify separate user-defined domain for each language."
+msgstr ""
+"Defnyddio Modd Fesul-Parth: pennwch barth a ddiffiniwyd gan ddefnyddiwr ar "
+"wahân ar gyfer pob iaith."
+
+#: admin/qtx_configuration.php:303
+msgid "Domain for"
+msgstr "Parth ar gyfer"
+
+#: admin/qtx_configuration.php:308
+msgid "Untranslated Content"
+msgstr "Cynnwys heb ei Gyfieithu"
+
+#: admin/qtx_configuration.php:310
+#, php-format
+msgid ""
+"The choices below define how to handle untranslated content at front-end of "
+"the site. A content of a page or a post is considered untranslated if the "
+"main text (%s) is empty for a given language, regardless of other fields "
+"like title, excerpt, etc. All three options are independent of each other."
+msgstr ""
+"Mae&#39;r dewisiadau isod yn diffinio sut i drin cynnwys heb ei gyfieithu ar "
+"flaen y wefan. Ni ystyrir cynnwys tudalen neu gofnod heb gyfieithu os yw&#39;"
+"r prif destun ( %s) yn wag ar gyfer iaith benodol, waeth beth yw'r meysydd "
+"eraill fel teitl, darn, ac ati. Mae&#39;r tri dewis yn annibynnol ar ei "
+"gilydd."
+
+#: admin/qtx_configuration.php:312
+msgid "Hide Content which is not available for the selected language."
+msgstr "Cuddio Cynnwys sydd ddim ar gael yn yr iaith a ddewiswyd."
+
+#: admin/qtx_configuration.php:314
+msgid ""
+"When checked, posts will be hidden if the content is not available for the "
+"selected language. If unchecked, a message will appear showing all the "
+"languages the content is available in."
+msgstr ""
+"Pan fydd hwn wedi'i ddewis, bydd cofnodion yn cael eu cuddio os nad yw'r "
+"cynnwys ar gael yn yr iaith a ddewiswyd. Os na fydd hwn wedi'i ddewis, bydd "
+"neges yn ymddangos sy'n dangos yr holl ieithoedd mae'r cynnwys ar gael ynddo."
+
+#: admin/qtx_configuration.php:315
+msgid ""
+"The message about available languages for the content of a post or a page "
+"may also appear if a single post display with an untranslated content if "
+"viewed directly."
+msgstr ""
+"Mae modd dangos y neges am yr ieithoedd sydd ar gael ar gyfer cynnwys cofnod "
+"neu dudalen os bydd rhywun yn edrych yn uniongyrchol ar gofnod sydd â "
+"chynnwys sydd heb ei gyfieithu."
+
+#: admin/qtx_configuration.php:316 admin/qtx_import_export.php:101
+#: admin/qtx_import_export.php:109 admin/qtx_import_export.php:189
+msgid "Convert Database"
+msgstr "Trawsnewid y Gronfa Ddata"
+
+#: admin/qtx_configuration.php:316
+#, php-format
+msgid ""
+"This function will not work correctly if you installed %s on a blog with "
+"existing entries. In this case you will need to take a look at option \"%s\" "
+"under \"%s\" section."
+msgstr ""
+"Ni fydd y swyddogaeth hon yn gweithio'n iawn os ydych chi wedi gosod %s ar "
+"flog sydd â chofnodion yn barod. Yn yr achos yma, bydd angen i edrych ar "
+"opsiwn \"%s\" o dan adran \"%s\"."
+
+#: admin/qtx_configuration.php:318
+msgid ""
+"Show displayed language prefix when content is not available for the "
+"selected language."
+msgstr ""
+"Dangoswch rhagddodiad iaith arddangos pan nad yw cynnwys ar gael ar gyfer yr "
+"iaith ddethol."
+
+#: admin/qtx_configuration.php:320
+msgid ""
+"This is relevant to all fields other than the main content of posts and "
+"pages. Such untranslated fields are always shown in an alternative available "
+"language, and will be prefixed with the language name in parentheses, if "
+"this option is on."
+msgstr ""
+"Mae hyn yn berthnasol i bob maes ac eithrio prif gynnwys cofnodion a "
+"thudalennau. Dangosir meysydd o&#39;r fath heb eu cyfieithu bob amser mewn "
+"iaith arall sydd ar gael, a byddant yn cael eu rhagnodi gyda&#39;r enw iaith "
+"mewn cromfachau, os yw&#39;r opsiwn hwn ar y gweill."
+
+#: admin/qtx_configuration.php:322
+msgid ""
+"Show content in an alternative language when translation is not available "
+"for the selected language."
+msgstr ""
+"Dangos cynnwys mewn iaith arall pan nad yw cyfieithu ar gael ar gyfer yr "
+"iaith ddethol."
+
+#: admin/qtx_configuration.php:323
+#, php-format
+msgid ""
+"When a page or a post with an untranslated content is viewed, a message with "
+"a list of other available languages is displayed, in which languages are "
+"ordered as defined by option \"%s\". If this option is on, then the content "
+"of the first available language will also be shown, instead of the expected "
+"language, for the sake of user convenience."
+msgstr ""
+
+#: admin/qtx_configuration.php:327
+msgid "Language Names"
+msgstr "Enwau Ieithoedd"
+
+#: admin/qtx_configuration.php:329
+msgid "Show language names in \"Camel Case\"."
+msgstr "Dangos enwau ieithoedd mewn \"Llythrennau Camel\"."
+
+#: admin/qtx_configuration.php:330
+#, php-format
+msgid ""
+"Define how to display translated language names, whenever languages need to "
+"be listed, for example, in \"%s\" statement."
+msgstr ""
+
+#: admin/qtx_configuration.php:334
+msgid "Detect Browser Language"
+msgstr "Canfod Iaith y Porwr"
+
+#: admin/qtx_configuration.php:336
+msgid "Detect the language of the browser and redirect accordingly."
+msgstr "Canfod iaith y porwr ac ailgyfeirio yn unol â hynny."
+
+#: admin/qtx_configuration.php:337
+msgid ""
+"When the frontpage is visited via bookmark/external link/type-in, the "
+"visitor will be forwarded to the correct URL for the language specified by "
+"his browser."
+msgstr ""
+"Pan fydd rhywun yn ymweld â'r dudalen flaen drwy nod tudalen/dolen allanol/"
+"teipio i mewn, byddan nhw'n cael eu cyfeirio i'r URL cywir ar gyfer yr iaith "
+"a bennwyd gan eu porwr."
+
+#: admin/qtx_configuration.php:345
+msgid "Post Types"
+msgstr "Mathau o Gofnod"
+
+#: admin/qtx_configuration.php:347
+msgid "Post types enabled for translation:"
+msgstr "Mathau o gofnod sydd wedi'u galluogi ar gyfer eu cyfieithu:"
+
+#: admin/qtx_configuration.php:358
+msgid ""
+"If a post type unchecked, no fields in a post of that type are treated as "
+"translatable on editing pages. However, the manual raw multilingual entries "
+"with language tags may still get translated in a usual way at front-end."
+msgstr ""
+"Os na chafodd math o gofnod ei wirio, ni chaiff meysydd mewn cofnod o&#39;r "
+"math hwnnw eu trin fel rhai sy&#39;n gyfieithiadwy ar dudalennau golygu. "
+"Fodd bynnag, mae&#39;n bosibl y bydd y cofnodion amlieithog â thagiau iaith "
+"yn dal i gael eu cyfieithu mewn ffordd arferol ar y blaen."
+
+#: admin/qtx_configuration.php:362
+msgid "Flag Image Path"
+msgstr "Llwybr Delwedd y Faner"
+
+#: admin/qtx_configuration.php:365
+#, php-format
+msgid ""
+"Path to the flag images under wp-content, with trailing slash. (Default: %s, "
+"clear the value above to reset it to the default)"
+msgstr ""
+"Llwybr i ddelweddau&#39;r faner o dan wp-content, gyda slaes ôl. (Diofyn: "
+"%s, cliriwch y gwerth uchod i&#39;w ailosod i&#39;r rhagosodedig)"
+
+#: admin/qtx_configuration.php:369
+msgid "Ignore Links"
+msgstr "Anwybyddu Dolenni"
+
+#: admin/qtx_configuration.php:372
+#, php-format
+msgid ""
+"Don't convert links to files of the given file types. (Always included: %s)"
+msgstr ""
+"Peidio trawsnewid dolenni i ffeiliau ar gyfer y mathau o ffeiliau a bennwyd. "
+"(Bob amser wedi'i gynnwys: %s)"
+
+#: admin/qtx_configuration.php:376 admin/qtx_languages.php:68
+#: qtranslate_widget.php:120
+msgid "Head inline CSS"
+msgstr "CSS Mewnol y Pennyn"
+
+#: admin/qtx_configuration.php:378
+msgid "CSS code added by plugin in the head of front-end pages:"
+msgstr ""
+"Cod CSS sy'n cael ei ychwanegu gan yr ategyn i bennyn y tudalennau blaen:"
+
+#: admin/qtx_configuration.php:381 qtranslate_widget.php:120
+msgid "To disable this inline CSS, clear the check box."
+msgstr "Er mwyn analluogi'r CSS mewnol, cliriwch y bocs ticio."
+
+#: admin/qtx_configuration.php:381 admin/qtx_configuration.php:507
+#: admin/qtx_configuration.php:543 qtranslate_widget.php:120
+msgid "To reset to default, clear the text."
+msgstr "I ailosod i'r dewis diofyn, dilewch y testun."
+
+#: admin/qtx_configuration.php:385
+msgid "Cookie Settings"
+msgstr "Gosodiadau Briwsion"
+
+#: admin/qtx_configuration.php:387
+#, php-format
+msgid "Disable language client cookie \"%s\" (not recommended)."
+msgstr "Analluogi briwsion iaith cleient \"%s\" (ni argymhellir hyn)."
+
+#: admin/qtx_configuration.php:388
+#, php-format
+msgid ""
+"Language cookie is auto-disabled for \"%s\" \"Pre-Domain\" and \"Per-Domain"
+"\", as language is always unambiguously defined by a url in those modes."
+msgstr ""
+"Mae briwsion iaith wedi'u hanalluogi'n awtomatig ar gyfer \"%s\" \"Rhag-Barth"
+"\" a \"Fesul-Parth\", gan fod iaith yn cael ei diffinio'n eglur mewn URL ar "
+"gyfer y moddau hynny."
+
+#: admin/qtx_configuration.php:388
+#, php-format
+msgid ""
+"Otherwise, use this option with a caution, for simple enough sites only. If "
+"checked, the user choice of browsing language will not be saved between "
+"sessions and some AJAX calls may deliver unexpected language, as well as "
+"some undesired language switching during browsing may occur under certain "
+"themes (%sRead More%s)."
+msgstr ""
+"Fel arall, defnyddiwch yr opsiwn hwn gyda rhybudd, ar gyfer gwefannau digon "
+"syml yn unig. Os caiff ei wirio, ni chaiff dewis y defnyddiwr o iaith pori "
+"ei chadw rhwng sesiynau a gall rhai galwadau AJAX gyflwyno iaith annisgwyl, "
+"yn ogystal â rhywfaint o newid iaith annerbyniol yn ystod pori ddigwydd o "
+"dan themâu penodol ( %sRead More %s)."
+
+#: admin/qtx_configuration.php:390
+#, php-format
+msgid "Make %s cookies available only through HTTPS connections."
+msgstr "Gwneud i friwsion %s fod ar gael drwy gysylltiadau HTTPS yn unig."
+
+#: admin/qtx_configuration.php:391
+msgid "Don't check this if you don't know what you're doing!"
+msgstr ""
+"Peidiwch a thicio hwn os nad ydych chi'n gwybod beth rydych chi'n ei wneud!"
+
+#: admin/qtx_configuration.php:395
+msgid "Update Gettext Databases"
+msgstr "Diweddaru Cronfeydd Data Gettext"
+
+#: admin/qtx_configuration.php:397
+msgid "Automatically check for .mo-Database Updates of installed languages."
+msgstr ""
+"Gwirio'n awtomatig am Ddiweddariadau .mo-Database ar gyfer ieithoedd sydd "
+"wedi'u gosod."
+
+#: admin/qtx_configuration.php:399
+msgid "Update Gettext databases now."
+msgstr "Diweddaru cronfeydd data Gettext nawr."
+
+#: admin/qtx_configuration.php:400
+msgid ""
+"qTranslate will query the Wordpress Localisation Repository every week and "
+"download the latest Gettext Databases (.mo Files)."
+msgstr ""
+"Bydd qTranslate yn anfon ymholiad i Ystorfa Lleoleiddio WordPress bob "
+"wythnos ac yn llwytho'r Cronfeydd Data Gettext (ffeiliau .mo) diweddaraf i "
+"lawr."
+
+#: admin/qtx_configuration.php:404
+msgid "Date / Time Conversion"
+msgstr "Trawsnewid Dyddiad / Amser"
+
+#: admin/qtx_configuration.php:406
+msgid "Use emulated date function."
+msgstr "Defnyddio swyddogaeth efelychu dyddiad."
+
+#: admin/qtx_configuration.php:407
+msgid ""
+"Use emulated date function and replace formats with the predefined formats "
+"for each language."
+msgstr ""
+"Defnyddio swyddogaeth efelychu dyddiad ac amnewid y fformatau gyda'r "
+"fformatau a ddiffiniwyd yn barod ar gyfer pob iaith."
+
+#: admin/qtx_configuration.php:408
+msgid "Use strftime instead of date."
+msgstr "Defnyddio strftime yn lle dyddiad."
+
+#: admin/qtx_configuration.php:409
+msgid ""
+"Use strftime instead of date and replace formats with the predefined formats "
+"for each language."
+msgstr ""
+"Defnyddio strftime yn lle dyddiad a disodli'r fformatau gyda'r fformatau "
+"sydd wedi'u diffinio'n barod ar gyfer pob iaith."
+
+#: admin/qtx_configuration.php:410
+msgid ""
+"Depending on the mode selected, additional customizations of the theme may "
+"be needed."
+msgstr ""
+"Gan ddibynnu ar y modd a ddewiswyd, efallai y bydd angen gwneud "
+"cyfaddasiadau ychwanegol i'r thema."
+
+#: admin/qtx_configuration.php:419
+msgid "Translation of options"
+msgstr "Cyfieithu opsiynau"
+
+#: admin/qtx_configuration.php:421
+msgid ""
+"Filter all WordPress options for translation at front-end. It may hurt "
+"performance of the site, but ensures that all options are translated."
+msgstr ""
+"Hidlo holl opsiynau WordPress ar gyfer cyfieithu'r dudalen flaen. Efallai y "
+"bydd hyn yn effeithio ar berfformiad y safle ond bydd yn sicrhau bod yr holl "
+"opsiynau wedi'u cyfieithu."
+
+#: admin/qtx_configuration.php:421
+msgid ""
+"Starting from version 3.2.5, only options with multilingual content get "
+"filtered, which should help on performance issues."
+msgstr ""
+"O fersiwn 3.2.5 ymlaen, dim ond opsiynau sydd â chynnwys amlieithog fydd yn "
+"cael eu hidlo, a ddylai helpu gyda phroblemau perfformiad."
+
+#: admin/qtx_configuration.php:423
+msgid "Translate only options listed below (for experts only):"
+msgstr ""
+"Cyfieithu'r opsiynau sydd wedi'u rhestru isod (ar gyfer arbenigwyr yn unig):"
+
+#: admin/qtx_configuration.php:426
+#, php-format
+msgid ""
+"By default, all options are filtered to be translated at front-end for the "
+"sake of simplicity of configuration. However, for a developed site, this may "
+"cause a considerable performance degradation. Normally, there are very few "
+"options, which actually need a translation. You may simply list them above "
+"to minimize the performance impact, while still getting translations needed. "
+"Options names must match the field \"%s\" of table \"%s\" of WordPress "
+"database. A minimum common set of option, normally needed a translation, is "
+"already entered in the list above as a default example. Option names in the "
+"list may contain wildcard with symbol \"%s\"."
+msgstr ""
+"Yn ddiofyn, caiff yr holl opsiynau eu hidlo i&#39;w cyfieithu ar y blaen er "
+"mwyn symlrwydd ffurfweddu. Fodd bynnag, ar gyfer gwefan a ddatblygwyd, gall "
+"hyn achosi cryn dipyn o ddirywiad mewn perfformiad. Fel rheol, ychydig iawn "
+"o opsiynau sydd, mewn gwirionedd, angen cyfieithiad. Fe allech chi eu "
+"rhestru uchod er mwyn lleihau effaith y perfformiad, tra&#39;n dal i gael "
+"cyfieithiadau sydd eu hangen. Rhaid i enwau opsiynau gydweddu â &quot; "
+"%s&quot; y tabl &quot; %s&quot; o gronfa ddata WordPress. Mae yna gyfres o "
+"opsiynnau cyffredin o leiaf, sydd angen cyfieithiad fel rheol, eisoes "
+"wedi&#39;i nodi yn y rhestr uchod fel enghraifft ddiofyn. Gall enwau "
+"opsiynau yn y rhestr gynnwys cerdyn gwyllt gyda symbol &quot; %s&quot;."
+
+#: admin/qtx_configuration.php:430
+msgid "Editor Mode"
+msgstr "Modd Golygu"
+
+#: admin/qtx_configuration.php:432
+msgid "Use Language Switching Buttons (LSB)."
+msgstr "Defnyddio Botymau Newid Iaith."
+
+#: admin/qtx_configuration.php:433
+msgid ""
+"Pages with translatable fields have Language Switching Buttons, which "
+"control what language is being edited, while admin language stays the same."
+msgstr ""
+"Mae gan dudalennau â meysydd cyfieithadwy Fotymau Newid Iaith, sy&#39;n "
+"rheoli pa iaith sy&#39;n cael ei olygu, tra bod iaith weinyddol yn aros yr "
+"un peth."
+
+#: admin/qtx_configuration.php:433
+msgid "This is the default mode."
+msgstr "Dyma'r modd diofyn."
+
+#: admin/qtx_configuration.php:434
+msgid ""
+"Do not use Language Switching Buttons to edit multi-language text entries."
+msgstr ""
+"Peidio defnyddio Botymau Newid Iaith i olygu cofnodion testun amlieithog."
+
+#: admin/qtx_configuration.php:434
+msgid "Editor Raw Mode"
+msgstr "Modd Golygu Craidd"
+
+#: admin/qtx_configuration.php:435
+msgid ""
+"Some people prefer to edit the raw entries containing all languages together "
+"separated by language defining tags, as they are stored in database."
+msgstr ""
+"Mae'n well gan rhai pobl olygu'r cofnodion craidd sy'n cynnwys yr holl "
+"ieithoedd gyda'i gilydd wedi'u gwahanu gan dagiau diffinio ieithoedd, fel "
+"maen nhw'n cael eu storio mewn cronfa ddata."
+
+#: admin/qtx_configuration.php:436
+msgid "Single Language Mode."
+msgstr "Modd Un Iaith."
+
+#: admin/qtx_configuration.php:436
+msgid "The language edited is the same as admin language."
+msgstr "Mae'r iaith a olygwyd yr un peth a'r iaith weinyddol."
+
+#: admin/qtx_configuration.php:437
+msgid ""
+"Edit language cannot be switched without page re-loading. Try this mode, if "
+"some of the advanced translatable fields do not properly respond to the "
+"Language Switching Buttons due to incompatibility with a plugin, which "
+"severely alters the default WP behaviour. This mode is the most compatible "
+"with other themes and plugins."
+msgstr ""
+"Ni ellir newid iaith Golygu heb ail-lwytho&#39;r dudalen. Rhowch gynnig ar y "
+"modd hwn, os nad yw rhai o&#39;r meysydd uwch-gyfieithadwy yn ymateb yn "
+"briodol i&#39;r Botymau Newid Iaith oherwydd anghydnaws ag ategyn, sy&#39;n "
+"newid yn ddifrifol yr ymddygiad WP rhagosodedig. Y dull hwn yw&#39;r un "
+"mwyaf cydnaws â themâu a phluniau eraill."
+
+#: admin/qtx_configuration.php:437
+msgid ""
+"One may find convenient to use the default Editor Mode, while remembering "
+"not to switch edit languages on custom advanced translatable fields, where "
+"LSB do not work."
+msgstr ""
+"Efallai y bydd yn gyfleus i ddefnyddio&#39;r Modd Golygydd diofyn, tra&#39;n "
+"cofio peidio â newid ieithoedd ar feysydd gyfieithadwy cyfaddas uwch, lle "
+"nad yw LSB yn gweithio."
+
+#: admin/qtx_configuration.php:449
+msgid "Choose CSS style for how Language Switching Buttons are rendered:"
+msgstr ""
+"Dewiswch arddull CSS ar gyfer sut mae Botymau Newid Iaith yn cael eu rendro:"
+
+#: admin/qtx_configuration.php:450
+#, php-format
+msgid "LSB %s-wrap classes:"
+msgstr "Dosbarthiadau LSB %s-lapio:"
+
+#: admin/qtx_configuration.php:451
+msgid "Active button class:"
+msgstr "Dosbarth botwm gweithredol:"
+
+#: admin/qtx_configuration.php:452
+msgid "The above is reset to an appropriate default, if the below is changed."
+msgstr ""
+"Caiff yr uchod ei ailosod i ddewis diofyn priodol os caiff yr isod ei newid."
+
+#: admin/qtx_configuration.php:453
+msgid "CSS set:"
+msgstr "Pennu CSS:"
+
+#: admin/qtx_configuration.php:457 admin/qtx_configuration.php:459
+#: admin/qtx_configuration.php:501 admin/qtx_configuration.php:503
+msgid "Use custom CSS"
+msgstr "Defnyddio CSS cyfaddas"
+
+#: admin/qtx_configuration.php:459
+#, php-format
+msgid ""
+"Choice \"%s\" disables this option and allows one to use its own custom CSS "
+"provided by other means."
+msgstr ""
+"Mae dewis \"%s\" yn analluogi'r opsiwn yma ac yn caniatáu iddo ddefnyddio "
+"CSS cyfaddas ei hun a ddarparwyd drwy ffordd arall."
+
+#: admin/qtx_configuration.php:478
+msgid ""
+"When there are many integrated or customized translatable fields, it may "
+"become confusing to know which field has multilingual value. The "
+"highlighting of translatable fields may come handy then:"
+msgstr ""
+"Pan fo llawer o feysydd cyfieithadwy wedi&#39;u hintegreiddio neu wedi&#39;u "
+"haddasu, gall fod yn ddryslyd i wybod pa faes sydd â gwerth amlieithog. "
+"Efallai y bydd tynnu sylw at feysydd cyfieithadwy yn ddefnyddiol wedyn:"
+
+#: admin/qtx_configuration.php:481 admin/qtx_configuration.php:483
+msgid "Do not highlight the translatable fields."
+msgstr "Peidio ag uwcholeuo'r meysydd mae modd eu cyfieithu."
+
+#: admin/qtx_configuration.php:485 admin/qtx_configuration.php:487
+msgid "Show a line on the left border of translatable fields."
+msgstr "Dangos llinell ym morder chwith meysydd mae modd eu cyfieithu."
+
+#: admin/qtx_configuration.php:489 admin/qtx_configuration.php:491
+msgid "Draw a border around translatable fields."
+msgstr "Gosod border o amgylch meysydd mae modd eu cyfieithu."
+
+#: admin/qtx_configuration.php:493 admin/qtx_configuration.php:495
+msgid "Show a shadow on the left of translatable fields."
+msgstr "Dangos cysgod ar ochr chwith meysydd mae modd eu cyfieithu."
+
+#: admin/qtx_configuration.php:497 admin/qtx_configuration.php:499
+msgid "Outline border around translatable fields."
+msgstr "Rhoi border amlinellol o amgylch meysydd mae modd eu cyfieithu."
+
+#: admin/qtx_configuration.php:507
+#, php-format
+msgid "The color in use is taken from your profile option %s, the third color."
+msgstr ""
+"Mae'r lliw sy'n cael ei ddefnyddio yn dod o opsiwn eich proffil %s, y "
+"trydydd lliw."
+
+#: admin/qtx_configuration.php:533
+#, php-format
+msgid ""
+"If your theme or some plugins are not fully integrated with %s, suggest "
+"their authors to review the %sIntegration Guide%s. In many cases they would "
+"only need to create a simple text file in order to be fully compatible with "
+"%s. Alternatively, you may create such a file for them and for yourselves."
+msgstr ""
+"Os nad yw eich thema neu rhai ategion yn gwbl integredig gyda %s, awgrymwch "
+"wrth eu hawduron eu bod yn darllen y %sCanllawiau Integreiddio%s. Mewn nifer "
+"o achosion, dim ond angen creu ffeil destun syml fydd angen er mwyn bod yn "
+"gwbl gydnaws â %s. Fel arall, gallwch chi greu ffeil o'r fath ar eu cyfer "
+"nhw a chi."
+
+#: admin/qtx_configuration.php:534
+#, php-format
+msgid ""
+"Read %sIntegration Guide%s for more information on how to customize the "
+"configuration of %s."
+msgstr ""
+"Darllenwch y %sCanllaw Integreiddio%s am ragor o wybodaeth ar sut i "
+"gyfaddasu ffurfweddiad %s."
+
+#: admin/qtx_configuration.php:538
+#, php-format
+msgid ""
+"List of configuration files. Unless prefixed with \"%s\", paths are relative "
+"to %s variable: %s. Absolute paths are also acceptable."
+msgstr ""
+"Rhestr o ffeiliau ffurfweddu. Oni bai bod \"%s\" o'u blaenau, mae llwybrau "
+"yn gymharol i newidyn %s: %s. Mae llwybrau absoliwt hefyd yn dderbyniadwy."
+
+#: admin/qtx_configuration.php:540
+#, php-format
+msgid ""
+"The list gets auto-updated on a 3rd-party integrated plugin activation/"
+"deactivation. You may also add your own custom files for your theme or "
+"plugins. File \"%s\" is the default configuration loaded from this plugin "
+"folder. It is not recommended to modify any configuration file from other "
+"authors, but you may alter any configuration item through your own custom "
+"file appended to the end of this list."
+msgstr ""
+"Caiff y rhestr ei diweddaru'n awtomatig ar ategyn ysgogi/dadysgogi trydydd "
+"parti sydd wedi'i integreiddio. Gallwch ychwanegu eich ffeiliau cyfaddas "
+"eich hun ar gyfer eich thema neu ategion hefyd. Ffeil \"%s\" yw'r "
+"ffurfweddiad diofyn sy'n cael ei lwytho o'r ffolder ategyn yma. Nid ydym yn "
+"argymell newid unrhyw ffeiliau ffurfweddu gan awduron eraill, ond gallwch "
+"newid eitem ffurfweddu drwy eich ffeil gyfaddas eich hun drwy ei hychwanegu "
+"at ddiwedd y rhestr yma."
+
+#: admin/qtx_configuration.php:541 admin/qtx_configuration.php:552
+#, php-format
+msgid ""
+"Use \"%s\" to review the resulting combined configuration from all \"%s\" "
+"and this option."
+msgstr ""
+"Defnyddiwch \"%s\" i adolygu'r ffurfweddiad cyfunol terfynol o \"%s\" a'r "
+"opsiwn hwn."
+
+#: admin/qtx_configuration.php:548
+#, php-format
+msgid ""
+"Additional custom JSON-encoded configuration of %s for all admin pages. It "
+"is processed after all files from option \"%s\" are loaded, providing "
+"opportunity to add or to override configuration tokens as necessary."
+msgstr ""
+"Ffurfweddiad amgodiad JSON cyfaddas ychwanegol o %s ar gyfer pob tudalen "
+"weinyddol. Caiff ei brosesu ar ôl i bob ffeil o opsiwn \"%s\" gael eu "
+"llwytho, sy'n cynnig cyfle i ychwanegu neu ddiystyru tocynnau ffurfweddu yn "
+"ôl y gofyn."
+
+#: admin/qtx_configuration.php:550
+#, php-format
+msgid ""
+"It would make no difference, if the content of this field is stored in a "
+"file, which name is listed last in option \"%s\". Therefore, this field only "
+"provides flexibility for the sake of convenience."
+msgstr ""
+"Os yw cynnwys y maes yma yn cael ei gadw mewn ffeil, ni fyddai'n gwneud "
+"unrhyw wahaniaeth pa enw sy'n cael ei restru olaf o dan opsiwn \"%s\". Felly "
+"mae'r maes yma'n cynnig hyblygrwydd er mwyn hwylustod."
+
+#: admin/qtx_configuration.php:557
+msgid "Custom Fields"
+msgstr "Meysydd Cyfaddas"
+
+#: admin/qtx_configuration.php:559
+#, php-format
+msgid ""
+"Enter \"%s\" or \"%s\" attribute of text fields from your theme, which you "
+"wish to translate. This applies to post, page and media editors (%s). To "
+"lookup \"%s\" or \"%s\", right-click on the field in the post or the page "
+"editor and choose \"%s\". Look for an attribute of the field named \"%s\" or "
+"\"%s\". Enter it below, as many as you need, space- or comma-separated. "
+"After saving configuration, these fields will start responding to the "
+"language switching buttons, and you can enter different text for each "
+"language. The input fields of type %s will be parsed using %s syntax, while "
+"single line text fields will use %s syntax. If you need to override this "
+"behaviour, prepend prefix %s or %s to the name of the field to specify which "
+"syntax to use. For more information, read %sFAQ%s."
+msgstr ""
+"Rhowch i mewn briodoledd meysydd testun \"%s\" neu \"%s\" o'ch thema rydych "
+"chi am eu cyfieithu. Mae hyn yn cynnwys golygwyr cofnodion, tudalennau a "
+"chyfryngau (%s). Er mwyn chwilio am \"%s\" neu \"%s\", de-gliciwch ar y maes "
+"yn y cofnod neu golygydd y dudalen a dewiswch \"%s\". Chwiliwch am "
+"briodoledd y maes \"%s\" neu \"%s\". Rhowch nhw i mewn isod, gymaint ag sydd "
+"eu hangen arnoch, wedi'u gwahanu naill ai gan fwlch neu goma. Ar ôl cadw'r "
+"ffurfweddiad, bydd y meysydd yma'n dechrau ymateb i'r botwm newid iaith, a "
+"gallwch roi testun newydd ar gyfer pob iaith. Bydd y meysydd mewnbynnu %s yn "
+"cael eu dosrannu gan ddefnyddio'r gystrawen %s, ond bydd meysydd testun un "
+"llinell yn defnyddio cystrawen %s. Os ydych chi am ddiystyru'r ymddygiad "
+"hwn, rhowch %s neu %s ar flaen enw'r maes er mwyn nodi pa gystrawen i'w "
+"defnyddio. I gael rhagor o wybodaeth, darllenwch y %sCwestiynau Cyffredin%s."
+
+#: admin/qtx_configuration.php:559
+msgctxt "browser option"
+msgid "Inspect Element"
+msgstr "Archwilio'r Elfen"
+
+#: admin/qtx_configuration.php:566
+msgid ""
+"The value of \"id\" attribute is normally unique within one page, otherwise "
+"the first field found, having an id specified, is picked up."
+msgstr ""
+"Mae gwerth priodoledd \"ID\" fel arfer yn unigryw i un dudalen, neu fel "
+"arall bydd y maes cyntaf sy'n cael ei ddarganfod, sydd ag ID penodol, yn "
+"cael ei ddewis."
+
+#: admin/qtx_configuration.php:573
+#, php-format
+msgid ""
+"All the fields of specified classes will respond to Language Switching "
+"Buttons. Be careful not to include a class, which would affect language-"
+"neutral fields. If you cannot uniquely identify a field needed neither by "
+"%s, nor by %s attribute, report the issue on %sSupport Forum%s"
+msgstr ""
+"Bydd pob maes mewn dosbarthiadau penodol ym ymateb i Fotymau Newid Iaith. "
+"Byddwch yn ofalus nad ydych chi'n cynnwys dosbarth a fyddai'n effeithio ar "
+"feysydd sy'n niwtral o ran iaith. Os nad ydych chi'n gallu adnabod maes "
+"unigryw sydd ei angen gan %s na phriodoledd %s, adroddwch am y broblem ar y "
+"%sFforymau Cymorth%s"
+
+#: admin/qtx_configuration.php:577
+msgid "Custom Filters"
+msgstr "Hidlyddion Cyfaddas"
+
+#: admin/qtx_configuration.php:580
+#, php-format
+msgid ""
+"Names of filters (which are enabled on theme or other plugins via %s "
+"function) to add translation to. For more information, read %sFAQ%s."
+msgstr ""
+"Enwau hidlyddion (sy'n cael eu galluogi ar themâu neu ategolion eraill drwy "
+"swyddogaeth %s) i ychwanegu cyfieithiad atynt. I gael rhagor o wybodaeth, "
+"darllenwch y %sCwestiynau Cyffredin%s."
+
+#: admin/qtx_configuration.php:592 admin/qtx_import_export.php:84
+msgid "Compatibility Functions"
+msgstr "Swyddogaethau Cydnawsedd"
+
+#: admin/qtx_configuration.php:594
+#, php-format
+msgid "Enable function name compatibility (%s)."
+msgstr "Galluogi cydnawsedd enw swyddogaeth (%s)."
+
+#: admin/qtx_configuration.php:595
+#, php-format
+msgid ""
+"Some plugins and themes use direct calls to the functions listed, which are "
+"defined in former %s plugin and some of its forks. Turning this flag on will "
+"enable those function to exists, which will make the dependent plugins and "
+"themes to work. WordPress policy prohibits to define functions with the same "
+"names as in other plugins, since it generates user-unfriendly fatal errors, "
+"when two conflicting plugins are activated simultaneously. Before turning "
+"this option on, you have to make sure that there are no other plugins "
+"active, which define those functions."
+msgstr ""
+"Mae rhai ategion a themâu yn defnyddio galwadau uniongyrchol i&#39;r "
+"swyddogaethau a restrir, a ddiffinnir yn ychwanegyn %s a rhai o&#39;i "
+"amrywiadau. Bydd troi&#39;r faner hon ymlaen yn galluogi&#39;r swyddogaeth "
+"honno i fodoli, a fydd yn gwneud y cymhorthion a&#39;r themâu dibynnol "
+"weithio. Mae polisi WordPress yn gwahardd diffinio swyddogaethau gyda&#39;r "
+"un enwau â phlygiau eraill, gan ei fod yn creu gwallau angheuol sy&#39;n "
+"anghyfeillgar i ddefnyddwyr, pan fydd dau ategion sy&#39;n gwrthdaro yn cael "
+"eu gweithredu ar yr un pryd. Cyn troi&#39;r opsiwn hwn ymlaen, rhaid i chi "
+"sicrhau nad oes unrhyw ategion eraill yn weithredol, sy&#39;n diffinio&#39;r "
+"swyddogaethau hynny."
+
+#: admin/qtx_configuration.php:625
+msgctxt "Two-letter Language Code meant."
+msgid "Code"
+msgstr "Cod"
+
+#: admin/qtx_configuration.php:628 qtranslate_services.php:365
+msgid "Action"
+msgstr "Gweithred"
+
+#: admin/qtx_configuration.php:630
+msgid "Stored"
+msgstr "Storiwyd"
+
+#: admin/qtx_configuration.php:666
+#, php-format
+msgid "%s Flag"
+msgstr "%s Baner"
+
+#: admin/qtx_configuration.php:668
+msgid "Default"
+msgstr "Diofyn"
+
+#: admin/qtx_configuration.php:668 admin/qtx_configuration.php:686
+msgid "Enable"
+msgstr "Galluogi"
+
+#: admin/qtx_configuration.php:670 admin/qtx_configuration.php:686
+msgid "Delete"
+msgstr "Dileu"
+
+#: admin/qtx_configuration.php:670
+msgid "Pre-Defined"
+msgstr "Wedi'i Diffinio'n Barod"
+
+#: admin/qtx_configuration.php:670 admin/qtx_configuration.php:686
+msgid "Reset"
+msgstr "Ailosod"
+
+#: admin/qtx_configuration.php:681
+msgid "List of Configured Languages"
+msgstr "Rhestr o'r Ieithoedd a Ffurfweddwyd"
+
+#: admin/qtx_configuration.php:684
+#, php-format
+msgid ""
+"Only enabled languages are loaded at front-end, while all %d configured "
+"languages are listed here."
+msgstr ""
+"Dim ond ieithoedd sydd wedi'u galluogi sy'n cael eu llwytho ar y dudalen "
+"flaen, tra bod yr %d o ieithoedd a ffurfweddwyd yn cael eu rhestru yma."
+
+#: admin/qtx_configuration.php:685
+msgid ""
+"The table below contains both pre-defined and manually added or modified "
+"languages."
+msgstr ""
+"Mae'r tabl isod yn cynnwys ieithoedd sydd wedi'u diffinio'n barod a "
+"ieithoedd sydd wedi'u hychwanegu neu eu haddasu â llaw."
+
+#: admin/qtx_configuration.php:686
+#, php-format
+msgid ""
+"You may %s or %s a language, or %s manually added language, or %s previous "
+"modifications of a pre-defined language."
+msgstr ""
+"Gallwch %s neu %s iaith, neu %s ieithoedd a ychwanegwyd â llaw, neu %s "
+"addasiadau blaenorol i iaith sydd wedi'i diffinio'n barod."
+
+#: admin/qtx_configuration.php:687
+#, php-format
+msgid "Click %s to modify language properties."
+msgstr "Cliciwch %s i addasu priodweddau iaith."
+
+#: admin/qtx_configuration.php:726
+msgid ""
+"Enabling a language will cause qTranslate to update the Gettext-Database for "
+"the language, which can take a while depending on your server's connection "
+"speed."
+msgstr ""
+"Bydd galluogi iaith yn achosi qTranslate i ddiweddaru'r Gronfa Ddata Gettext "
+"ar gyfer yr iaith, a all gymryd ychydig o amser yn dibynnu ar gyflymder "
+"cysylltiad eich gweinydd."
+
+#: admin/qtx_configuration.php:733
+msgid "Add Language"
+msgstr "Ychwanegu Iaith"
+
+#: admin/qtx_configuration.php:738
+msgid "Add Language &raquo;"
+msgstr "Ychwanegu Iaith &raquo;"
+
+#: admin/qtx_import_export.php:84
+#, php-format
+msgid ""
+"Option \"%s\" has also been turned on, as the most common case for importing "
+"configuration from %s. You may turn it off manually if your setup does not "
+"require it. Refer to %sFAQ%s for more information."
+msgstr ""
+"Mae opsiwn \"%s\" hefyd ymlaen fel yr achos mwyaf cyffredin ar gyfer "
+"mewnforio ffurfweddiad o %s. Gallwch ei ddiffodd â llaw os nad oes ei angen "
+"ar eich gosodiad. I gael rhagor o wybodaeth, darllenwch y %sCwestiynau "
+"Cyffredin%s."
+
+#: admin/qtx_import_export.php:99
+#, php-format
+msgid ""
+"Applicable options and taxonomy names from plugin %s have been imported. "
+"Note that the multilingual content of posts, pages and other objects has not "
+"been altered during this operation. There is no additional operation needed "
+"to import content, since its format is compatible with %s."
+msgstr ""
+"Mae opsiynau sy&#39;n berthnasol ac enwau tacsonomeg o&#39;r ategyn %s "
+"wedi&#39;u mewnforio. Sylwer nad yw cynnwys amlieithog o gofnod, tudalennau "
+"a gwrthrychau eraill wedi cael ei newid yn ystod y weithred hon. Nid oes "
+"angen gweithredu ychwanegol i fewnforio cynnwys, gan fod ei fformat yn "
+"gydnaws â %s."
+
+#: admin/qtx_import_export.php:101
+#, php-format
+msgid ""
+"%sImportant%s: Before you start making edits to post and pages, please, make "
+"sure that both, your front site and admin back-end, work under this "
+"configuration. It may help to review \"%s\" and see if any of conflicting "
+"plugins mentioned there are used here. While the current content, coming "
+"from %s, is compatible with this plugin, the newly modified posts and pages "
+"will be saved with a new square-bracket-only encoding, which has a number of "
+"advantages comparing to former %s encoding. However, the new encoding is not "
+"straightforwardly compatible with %s and you will need an additional step "
+"available under \"%s\" option if you ever decide to go back to %s. Even with "
+"this additional conversion step, the 3rd-party plugins custom-stored data "
+"will not be auto-converted, but manual editing will still work. That is why "
+"it is advisable to create a test-copy of your site before making any further "
+"changes. In case you encounter a problem, please give us a chance to improve "
+"%s, send the login information to the test-copy of your site to %s along "
+"with a detailed step-by-step description of what is not working, and "
+"continue using your main site with %s meanwhile. It would also help, if you "
+"share a success story as well, either on %sthe forum%s, or via the same e-"
+"mail as mentioned above. Thank you very much for trying %s."
+msgstr ""
+"%sImportant %s: Cyn i chi ddechrau gwneud newidiadau i gofnodion a "
+"thudalennau, gwnewch yn siŵr bod eich gwefan blaen a&#39;ch gweinydd cefn yn "
+"gweithio o dan y ffurfweddiad hwn. Efallai y bydd o gymorth i adolygu &quot;"
+"%s&quot; a gweld a oes unrhyw un o&#39;r ategion sy&#39;n gwrthdaro yn cael "
+"eu defnyddio yma. Er bod y cynnwys cyfredol, sy&#39;n dod o %s, yn gydnaws "
+"â&#39;r ategyn hwn, bydd y cofnodion a&#39;r tudalennau sydd newydd eu "
+"haddasu yn cael eu cadw gydag amgodio braced sgwâr yn unig, sydd â nifer o "
+"fanteision sy&#39;n cymharu â chodio %s blaenorol. Fodd bynnag, nid yw&#39;r "
+"amgodio newydd yn gydnaws yn syml â %s a bydd angen cam ychwanegol arnoch ar "
+"gael o dan &quot; %s&quot; os ydych chi'n penderfynu mynd yn ôl i %s. Hyd yn "
+"oed gyda&#39;r cam trosi ychwanegol hwn, ni chaiff y manylion ategol a "
+"gedwir gan y ategion trydydd parti eu troi&#39;n awtomatig, ond bydd golygu "
+"â llaw yn dal i weithio. Dyna pam y cynghorir chi i greu copi prawf o&#39;ch "
+"gwefan cyn gwneud unrhyw newidiadau pellach. Os byddwch chi&#39;n wynebu "
+"problem, rhowch gyfle i ni wella %s, anfonwch yr wybodaeth mewngofnodi i "
+"gopi prawf eich gwefan i %s ynghyd â disgrifiad cam wrth gam o&#39;r hyn nad "
+"yw&#39;n gweithio, a pharhau gan ddefnyddio&#39;ch prif wefan gyda %s yn y "
+"cyfamser. Byddai hefyd yn helpu, os ydych chi&#39;n rhannu hanes llwyddiant "
+"hefyd, naill ai ar% y fforwm %s, neu drwy&#39;r un e-bost fel y crybwyllwyd "
+"uchod. Diolch yn fawr iawn am roi cynnig ar %s."
+
+#: admin/qtx_import_export.php:101
+msgid ""
+"This is a one-time message, which you will not see again, unless the same "
+"import is repeated."
+msgstr ""
+"Mae hon yn neges a fydd yn ymddangos unwaith ac ni fyddwch yn gweld y neges "
+"eto oni bai bod yr un weithred mewnforio yn cael ei hail-hadrodd."
+
+#: admin/qtx_import_export.php:109
+#, php-format
+msgid ""
+"Applicable options have been exported to plugin %s. If you have done some "
+"post or page updates after migrating from %s, then \"%s\" operation is also "
+"required to convert the content to \"dual language tag\" style in order for "
+"plugin %s to function."
+msgstr ""
+"Mae dewisiadau cymwys wedi'u hallforio i ategyn %s. Os ydych chi wedi gwneud "
+"newidiadau i gofnodion neu dudalennau ers mudo o %s, yna mae angen \"%s\" "
+"hefyd er mwyn trawsnewid y cynnwys i arddull \"tag iaith ddeuol\" er mwyn i "
+"ategyn %s weithio."
+
+#: admin/qtx_import_export.php:156
+msgid "Plugin"
+msgstr "Ategyn"
+
+#: admin/qtx_import_export.php:160
+msgid ""
+"There is no need to migrate any setting, the database schema is compatible "
+"with this plugin."
+msgstr ""
+"Does dim angen mudo unrhyw osodiadau, mae sgema'r gronfa ddata yn gydnaws "
+"â'r ategyn yma."
+
+#: admin/qtx_import_export.php:165
+msgid "Do not migrate any setting"
+msgstr "Peidio mudo unrhyw osodiadau"
+
+#: admin/qtx_import_export.php:167
+msgid "Import settings from "
+msgstr "Mewnforio gosodiadau o "
+
+#: admin/qtx_import_export.php:170
+msgid "Export settings to "
+msgstr "Allforio gosodiadau i "
+
+#: admin/qtx_import_export.php:191
+#, php-format
+msgid ""
+"If you are updating from qTranslate 1.x or Polyglot, <a href=\"%s\">click "
+"here</a> to convert posts to the new language tag format."
+msgstr ""
+"Os ydych chi'n diweddaru o qTranslate 1.x neu Polyglot, <a href=\"%s"
+"\">cliciwch yma</a> i drawsnewid cofnodion i'r fformat tagio iaith newydd."
+
+#: admin/qtx_import_export.php:192
+#, php-format
+msgid ""
+"If you have installed qTranslate for the first time on a Wordpress with "
+"existing posts, you can either go through all your posts manually and save "
+"them in the correct language or <a href=\"%s\">click here</a> to mark all "
+"existing posts as written in the default language."
+msgstr ""
+"Os ydych chi wedi gosod qTranslate am y tro cyntaf ar WordPress sydd â "
+"chofnodion sy'n bodoli'n barod, gallwch chi naill ai fynd drwy bob un cofnod "
+"â llaw a'u cadw yn yr iaith gywir, neu <a href=\"%s\">cliciwch yma</a> i "
+"farcio eich holl gofnodion presennol fel eu bod wedi'u hysgrifennu yn yr "
+"iaith ddiofyn."
+
+#: admin/qtx_import_export.php:193
+msgid ""
+"Both processes are <b>irreversible</b>! Be sure to make a full database "
+"backup before clicking one of the links."
+msgstr ""
+"Nid oes modd <b>dadwneud</b> y ddwy broses yma! Gwnewch yn siŵr eich bod yn "
+"gwneud copi wrth-gefn llawn o'r gronfa ddata cyn clicio ar un o'r dolenni."
+
+#: admin/qtx_import_export.php:194
+msgid "Do not convert database"
+msgstr "Peidio trawsnewid y gronfa ddata"
+
+#: admin/qtx_import_export.php:195
+msgid "Convert database to the \"square bracket only\" style."
+msgstr "Trawsnewid y gronfa ddata i'r arddull \"cromfach sgwâr yn unig\"."
+
+#: admin/qtx_import_export.php:196
+#, php-format
+msgid ""
+"The square bracket language tag %s only will be used as opposite to dual-tag "
+"(%s and %s) %s legacy database format. All string options and standard post "
+"and page fields will be uniformly encoded like %s."
+msgstr ""
+"Bydd y tag iaith bachyn sgwâr %s dim ond yn cael ei ddefnyddio fel y "
+"gwrthwyneb i'r fformat tag deuol (%s a %s) %s allwedd cronfa ddata. Bydd pob "
+"opsiwn edefyn a chofnod cyffredin a meysydd tudalennau yn cael eu codio'n "
+"unffurf fel %s."
+
+#: admin/qtx_import_export.php:197
+msgid "Convert database back to the legacy \"dual language tag\" style."
+msgstr "Trawsnewid y gronfa ddata yn ôl i'r arddull \"tag iaith ddeuol\"."
+
+#: admin/qtx_import_export.php:198
+msgid ""
+"Note, that only string options and standard post and page fields are "
+"affected."
+msgstr ""
+"Dim ond ar opsiynau llinyn a chofnodion arferol a meysydd tudalennau y bydd "
+"hyn yn effeithio arnyn nhw."
+
+#: admin/qtx_import_export.php:205
+#, php-format
+msgid "Use plugin %s to import data."
+msgstr "Defnyddio ategyn %s i fewnforio data."
+
+#: admin/qtx_import_export.php:208
+msgid "Reset qTranslate"
+msgstr "Ailosod qTranslate"
+
+#: admin/qtx_import_export.php:210
+msgid "Check this box and click Save Changes to reset all qTranslate settings."
+msgstr ""
+"Ticiwch y blwch yma a cliciwch Cadw Newidiadau er mwyn ailosod holl "
+"osodiadau qTranslate."
+
+#: admin/qtx_import_export.php:212
+msgid "Yes, I really want to reset qTranslate."
+msgstr "Ydw, rydw i am ailosod qTranslate."
+
+#: admin/qtx_import_export.php:214
+msgid "Also delete Translations for Categories/Tags/Link Categories."
+msgstr ""
+"Hefyd, dileu Cyfieithiadau ar gyfer Categorïau/Tagiau/Categorïau Dolenni."
+
+#: admin/qtx_import_export.php:216
+msgid ""
+"If something isn't working correctly, you can always try to reset all "
+"qTranslate settings. A Reset won't delete any posts but will remove all "
+"settings (including all languages added)."
+msgstr ""
+"Os nad yw rhywbeth yn gweithio'n iawn, gallwch bob amser roi cynnig ar "
+"ailosod holl osodiadau qTranslate. Ni fydd yr Ailosod yn dileu unrhyw "
+"gofnodion, dim ond yn dileu'r holl osodiadau (gan gynnwys pob iaith a "
+"ychwanegwyd)."
+
+#: admin/qtx_import_export.php:218
+msgid "Reset admin notices."
+msgstr "Ailosod hysbysiadau gweinyddol."
+
+#: admin/qtx_import_export.php:220
+msgid ""
+"All previously dismissed admin notices related to this plugin will show up "
+"again on next refresh of admin pages."
+msgstr ""
+"Bydd yr holl hysbysiadau gweinyddol sydd wedi'u hanwybyddu yn flaenorol "
+"gyda'r ategyn hwn yn ymddangos eto pan fydd y tudalennau gweinyddol yn cael "
+"eu hadnewyddu."
+
+#: admin/qtx_languages.php:68
+#, php-format
+msgid ""
+"A manual update to option \"%s\" or to the theme custom CSS may be needed, "
+"after some languages are changed."
+msgstr ""
+"Ar ôl i rai ieithoedd gael eu newid, mae'n bosibl y bydd angen diweddaru "
+"opsiwn \"%s\" neu CSS cyfaddas y thema â llaw."
+
+#: admin/qtx_languages.php:68
+msgid ""
+"If you do not wish to customize this option, then reset it to the default by "
+"emptying its value."
+msgstr ""
+"Os nad ydych chi am cyfaddasu'r opsiwn yma, yna gallwch ei ailosod i'r dewis "
+"diofyn drwy ddileu'r gwerth."
+
+#: admin/qtx_languages.php:113
+msgid "Cannot delete Default Language!"
+msgstr "Ni ellir dileu'r Iaith Ddiofyn!"
+
+#: admin/qtx_update_gettext_db.php:33
+msgid "Gettext databases <strong>not</strong> updated:"
+msgstr "Cronfeydd data Gettext <strong>heb</strong> eu diweddaru:"
+
+#: admin/qtx_update_gettext_db.php:63
+#, php-format
+msgid "Failed to update gettext database for \"%s\": %s"
+msgstr "Methwyd â diweddaru cronfeydd data Gettext ar gyfer \"%s\": %s"
+
+#: admin/qtx_user_options.php:11
+msgid "Translation options"
+msgstr "Opsiynau cyfieithu"
+
+#: admin/qtx_user_options.php:16
+msgid "Highlight Translatable Fields"
+msgstr "Uwcholeuo'r Meysydd mae Modd eu Cyfieithu"
+
+#: admin/qtx_user_options.php:20
+#, php-format
+msgid ""
+"The way the translatable fields are highlighted is configured with global "
+"option %s."
+msgstr ""
+"Mae'r ffordd y caiff meysydd mae modd eu cyfieithu eu hamlygu yn cael ei "
+"ffurfweddu gydag opsiwn cyffredinol %s."
+
+#: qtranslate_core.php:1482
+msgid ""
+"For the sake of viewer convenience, the content is shown below in this site "
+"default language."
+msgstr ""
+"Er hwylustod i'r darllenydd, caiff y cynnwys ei ddangos isod yn iaith "
+"ddiofyn y safle."
+
+#: qtranslate_core.php:1485
+msgid ""
+"For the sake of viewer convenience, the content is shown below in one of the "
+"available alternative languages."
+msgstr ""
+"Er hwylustod i'r darllenydd, caiff y cynnwys ei ddangos isod yn un o'r "
+"ieithoedd amgen sydd ar gael."
+
+#: qtranslate_core.php:1488
+msgid ""
+"You may click one of the links to switch the site language to another "
+"available language."
+msgstr ""
+"Gallwch glicio un o'r dolenni i newid iaith y safle i iaith arall sydd ar "
+"gael."
+
+#: qtranslate_core.php:1490
+msgid ""
+"For the sake of viewer convenience, the content is shown below in the "
+"alternative language."
+msgstr ""
+"Er hwylustod i'r darllenydd, caiff y cynnwys ei ddangos isod yn yr iaith "
+"amgen."
+
+#: qtranslate_core.php:1491
+msgid "You may click the link to switch the active language."
+msgstr "Gallwch glicio'r ddolen i newid yr iaith weithredol."
+
+#: qtranslate_frontend.php:264
+msgctxt "Colon after a title. For example, in top item of Language Menu."
+msgid ":"
+msgstr ":"
+
+#: qtranslate_services.php:43
+msgid "The language/s do not have a valid ISO 639-1 representation."
+msgstr "Nid oes cynrychiolaeth dilys o'r ieithoedd yn ISO 639-1."
+
+#: qtranslate_services.php:44
+msgid "The language/s you used are not supported by the service."
+msgstr ""
+
+#: qtranslate_services.php:45
+msgid "There is no such service."
+msgstr "Does dim gwasanaeth o'r fath."
+
+#: qtranslate_services.php:46
+msgid "The system could not process your order."
+msgstr ""
+
+#: qtranslate_services.php:47
+msgid "There has been an error with the selected service."
+msgstr ""
+
+#: qtranslate_services.php:48
+msgid "An unknown error occured with the selected service."
+msgstr ""
+
+#: qtranslate_services.php:49
+msgid "The server returned a debugging message."
+msgstr ""
+
+#: qtranslate_services.php:164
+#, php-format
+msgid "<div>Translate to %s</div>"
+msgstr "<div>Cyfieithu i %s</div>"
+
+#: qtranslate_services.php:191
+msgid "qTranslate Services Settings"
+msgstr "Gosodiadau Gwasanaethau qTranslate"
+
+#: qtranslate_services.php:221 qtranslate_services.php:222
+msgid "Translate to"
+msgstr "Cyfieithu i"
+
+#: qtranslate_services.php:310
+msgid "Order deleted."
+msgstr "Dilëwyd archeb."
+
+#: qtranslate_services.php:314
+msgid "Status updated for all open orders."
+msgstr ""
+
+#: qtranslate_services.php:333
+msgid "Please save your post first."
+msgstr "Cadw eich cofnod yn gyntaf"
+
+#: qtranslate_services.php:361
+msgid "Post Title"
+msgstr "Teitl Cofnod"
+
+#: qtranslate_services.php:362
+msgid "Service"
+msgstr "Gwasanaeth"
+
+#: qtranslate_services.php:363
+msgid "Source Language"
+msgstr "Iaith Ffynhonnell"
+
+#: qtranslate_services.php:364
+msgid "Target Language"
+msgstr "Iaith Targed"
+
+#: qtranslate_services.php:375 qtranslate_services.php:660
+#: qtranslate_services.php:670 qtranslate_services.php:694
+msgid "qTranslate Services"
+msgstr "Gwasanaethau qTranslate"
+
+#: qtranslate_services.php:377
+#, php-format
+msgid ""
+"<div id=\"message\" class=\"error fade\"><p>qTranslate Services could not "
+"load <a href=\"%s\">OpenSSL</a>!</p></div>"
+msgstr ""
+"<div id=\"message\" class=\"error fade\"><p>Methodd Gwasanaethau qTranslate "
+"lwytho <a href=\"%s\">OpenSSL</a>!</p></div>"
+
+#: qtranslate_services.php:378
+msgid "Enable qTranslate Services"
+msgstr "Galluogi Gwasanaethau qTranslate"
+
+#: qtranslate_services.php:380
+msgid ""
+"With qTranslate Services, you will be able to use professional human "
+"translation services with a few clicks."
+msgstr ""
+
+#: qtranslate_services.php:390
+msgid "Open Orders"
+msgstr "Agor Archebiadau"
+
+#: qtranslate_services.php:412
+#, php-format
+msgid "Edit %s"
+msgstr "Golygu %s"
+
+#: qtranslate_services.php:413 qtranslate_services.php:460
+#: qtranslate_services.php:800 qtranslate_services.php:807
+msgid "Website"
+msgstr "Gwefan"
+
+#: qtranslate_services.php:423
+#, php-format
+msgid "Current Status: %s"
+msgstr "Statws Cyfredol: %s"
+
+#: qtranslate_services.php:431
+#, php-format
+msgid ""
+"qTranslate Services will automatically check every hour whether the "
+"translations are finished and update your posts accordingly. You can always "
+"<a href=\"%s\">check manually</a>."
+msgstr ""
+
+#: qtranslate_services.php:432
+msgid ""
+"Deleting an open order doesn't cancel it. You will have to logon to the "
+"service homepage and cancel it there."
+msgstr ""
+
+#: qtranslate_services.php:434
+msgid "No open orders."
+msgstr "Dim archebiadau ar agor."
+
+#: qtranslate_services.php:450
+msgid "Service Configuration"
+msgstr ""
+
+#: qtranslate_services.php:451
+msgid ""
+"Below, you will find configuration settings for qTranslate Service "
+"Providers, which are required for them to operate."
+msgstr ""
+
+#: qtranslate_services.php:532
+#, php-format
+msgid ""
+"To translate a post, please go to the <a href=\"%s\">edit posts overview</a>."
+msgstr ""
+
+#: qtranslate_services.php:548
+#, php-format
+msgid "Post with id \"%s\" not found!"
+msgstr ""
+
+#: qtranslate_services.php:559
+msgid "The requested Post has no content, no Translation possible."
+msgstr ""
+
+#: qtranslate_services.php:568
+msgid ""
+"The Post already has content for the selected target language. If a "
+"translation request is send, the current text for the target language will "
+"be overwritten."
+msgstr ""
+
+#: qtranslate_services.php:639
+#, php-format
+msgid "An error occured: %s"
+msgstr "Digwyddodd gwall: %s"
+
+#: qtranslate_services.php:641
+#, php-format
+msgid "Additional information: %s"
+msgstr "Mwy o wybodaeth: %s"
+
+#: qtranslate_services.php:662
+#, php-format
+msgid ""
+"An serious error occured and qTranslate Services cannot proceed. For help, "
+"please visit the <a href=\"%s\">Support Forum</a>"
+msgstr ""
+
+#: qtranslate_services.php:671
+msgid "Order successfully sent."
+msgstr ""
+
+#: qtranslate_services.php:672
+msgid ""
+"Your translation order has been successfully transfered to the selected "
+"service."
+msgstr ""
+
+#: qtranslate_services.php:676
+#, php-format
+msgid "The service returned this message: %s"
+msgstr ""
+
+#: qtranslate_services.php:680
+msgid "Feel free to choose an action:"
+msgstr ""
+
+#: qtranslate_services.php:682
+msgid "Translate this post to another language."
+msgstr ""
+
+#: qtranslate_services.php:683
+msgid "Translate a different post."
+msgstr "Cyfieithu cofnod gwahanol"
+
+#: qtranslate_services.php:684
+msgid "View all open orders."
+msgstr "Gweld holl archebiadau sydd ar agor."
+
+#: qtranslate_services.php:685
+msgid "Let qTranslate Services check if any open orders are finished."
+msgstr ""
+
+#: qtranslate_services.php:686
+msgid "View this post."
+msgstr "Gweld cofnod."
+
+#: qtranslate_services.php:711
+#, php-format
+msgid ""
+"Your article is available in multiple languages. If you do not want to "
+"translate from %1$s, you can switch to one of the following languages: %2$s"
+msgstr ""
+
+#: qtranslate_services.php:719
+msgid "Please choose the language you want to translate to:"
+msgstr "Dewiswch iaith targed rydych chi eisiau:"
+
+#: qtranslate_services.php:731
+msgid "Continue"
+msgstr "Parhau"
+
+#: qtranslate_services.php:742 qtranslate_services.php:745
+msgid "Confirm Order"
+msgstr "Cadarnhau Archeb"
+
+#: qtranslate_services.php:744
+msgid "Please confirm your order."
+msgstr ""
+
+#: qtranslate_services.php:752 qtranslate_services.php:901
+msgid "Request Translation"
+msgstr "Gofyn am Gyfieithiad"
+
+#: qtranslate_services.php:754
+msgid "Javascript is required for qTranslate Services"
+msgstr "Angen JavaScript ar gyfer Gwasanaethau qTranslate"
+
+#: qtranslate_services.php:755
+msgid "Please choose a service first"
+msgstr ""
+
+#: qtranslate_services.php:764
+msgid ""
+"ERROR: Could not connect to qTranslate Services. Please try again later."
+msgstr ""
+"GWALL: Nid oedd modd cysylltu â Gwasanaethau qTranslate. Ceisiwch eto "
+"hwyrach."
+
+#: qtranslate_services.php:801
+#, php-format
+msgid ""
+"Cannot use this service, not all <a href=\"%s\">required fields</a> filled "
+"in for this service."
+msgstr ""
+
+#: qtranslate_services.php:817
+msgid "<p><img src=\"images/wpspin_light.gif\"> Getting Quote...</p>"
+msgstr "<p><img src=\"images/wpspin_light.gif\"> Yn Derbyn Dyfynbris...</p>"
+
+#: qtranslate_services.php:838
+msgid "Click to toggle"
+msgstr "Clicio i'w doglo "
+
+#: qtranslate_services.php:839
+msgid "Review Article"
+msgstr "Adolygu Erthygl"
+
+#: qtranslate_services.php:845
+msgid ""
+"Your article will be SSL encrypted and securly sent to qTranslate Services, "
+"which will forward your text to the chosen Translation Service. Once "
+"qTranslate Services receives the translated text, it will automatically "
+"appear on your blog."
+msgstr ""
+
+#: qtranslate_services.php:884 qtranslate_services.php:891
+msgid "unavailable"
+msgstr "ddim ar gael"
+
+#: qtranslate_services.php:889
+msgid "free"
+msgstr "am ddim"
+
+#: qtranslate_services.php:896
+#, php-format
+msgid "<p>Price: %1$s %2$s</p>"
+msgstr "<p>Pris: %1$s %2$s</p>"
+
+#: qtranslate_services.php:897
+#, php-format
+msgid "~ %1$s %2$s"
+msgstr "~ %1$s %2$s"
+
+#: qtranslate_services.php:904
+msgid "An error occured!"
+msgstr "Digwyddodd gwall!"
+
+#: qtranslate_services.php:922
+msgid "Translate"
+msgstr "Cyfieithu"
+
+#: qtranslate_widget.php:33
+msgid "Allows your visitors to choose a Language."
+msgstr "Yn galluogi eich ymwelwyr i ddewis Iaith."
+
+#: qtranslate_widget.php:34
+msgid "qTranslate Language Chooser"
+msgstr "Dewisydd Iaith qTranslate"
+
+#: qtranslate_widget.php:97
+msgid "Title:"
+msgstr "Teitl:"
+
+#: qtranslate_widget.php:98
+msgid "Hide Title:"
+msgstr "Cuddio Teitl:"
+
+#: qtranslate_widget.php:99
+msgid "Hide Title Colon:"
+msgstr "Cuddio Teitl Colon:"
+
+#: qtranslate_widget.php:100
+msgid "Display:"
+msgstr "Dangos:"
+
+#: qtranslate_widget.php:101
+msgid "Text only"
+msgstr "Testun yn unig"
+
+#: qtranslate_widget.php:102
+msgid "Image only"
+msgstr "Delwedd yn unig"
+
+#: qtranslate_widget.php:103 qtranslate_widget.php:117
+msgid "Text and Image"
+msgstr "Testun a Delwedd"
+
+#: qtranslate_widget.php:104
+msgid "Dropdown Box"
+msgstr "Blwch Cwymplen"
+
+#: qtranslate_widget.php:105
+msgid "Custom list item format:"
+msgstr "Fformat eitem ar restr gyfaddas:"
+
+#: qtranslate_widget.php:109
+msgid "Accepted format arguments:"
+msgstr "Arg fformatau derbyniol:"
+
+#: qtranslate_widget.php:110
+msgid "Flag Image HTML"
+msgstr "HTML Delwedd Fflag"
+
+#: qtranslate_widget.php:111
+msgid "Flag Image URL"
+msgstr "URL Delwedd Fflag"
+
+#: qtranslate_widget.php:112
+msgid "Language Native Name"
+msgstr "Enw Iaith Frodorol"
+
+#: qtranslate_widget.php:113
+msgid "Language Name in Active Language"
+msgstr "Enw Iaith yn Iaith Actif"
+
+#: qtranslate_widget.php:114
+msgid "Language 2-Letter Code"
+msgstr "Cod Dwy Lythyren Iaith"
+
+#: qtranslate_widget.php:117
+#, php-format
+msgid "For example, format \"%s\" would do the same as the choice \"%s\"."
+msgstr ""
+"Er enghraifft, byddai fformat \"%s\" yn gwneud yr un peth â'r dewis \"%s\"."
+
+#: qtranslate_widget.php:118
+msgid "An appropriate custom CSS is expected to be provided in this case."
+msgstr "Mae disgwyl i CSS cyfaddas priodol gael ei ddarparu yn yr achos yma."
+
+#: qtranslate_widget.php:120
+#, php-format
+msgid ""
+"Other common CSS block for flag classes \"%s\" is loaded in the head of HTML "
+"and can be controlled with option \"%s\"."
+msgstr ""
+"Mae bloc CSS cyffredin arall ar gyfer dosbarthiadau baner \"%s\" yn cael ei "
+"lwytho ym mhennyn HTML a gellir ei reoli gydag opsiwn \"%s\"."
+
+#: qtranslate_widget.php:120
+msgid "Widget CSS:"
+msgstr "Teclyn CSS:"
+
+#: qtranslate.php:5
+msgid "Adds user-friendly and database-friendly multilingual content support."
+msgstr ""
+"Yn ychwanegu cymorth cynnwys amlieithog sy'n gyfeillgar i ddefnyddwyr a "
+"chronfeydd data."
